@@ -1,4 +1,4 @@
-# UT-Austin-life
+# utlife: UT-Austin-life
 
 The copyright of the contents is held by Koutian Wu. The code and design of this webpage based on those by [SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife), with minor modifications by Koutian Wu.
 
