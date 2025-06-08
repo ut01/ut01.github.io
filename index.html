@@ -30,12 +30,11 @@ layout: none
         <div class="u_nav-wrapper">
             <div class="u_nav clearfix">
                 <div class="u_nav-left">
-                    <a class="u_nav-link" href=".">USTC 导航</a>
+                    <a class="u_nav-link" href=".">UT-Life</a>
                 </div>
-                <!-- PC 端搜索框组 -->
                 <div class="u_nav-input-group">
                     <form id="search-form-pc">
-                        <input class="u_nav-input" id="search-pc">
+                        <input class="u_nav-input" id="search-pc" placeholder="Search...">
                         <input type="submit" hidden>
                     </form>
                     <ul>
@@ -43,27 +42,24 @@ layout: none
                             <span onclick="search('google', 'pc')">Google</span>
                             <ul class="u_nav-ul">
                                 <li><span class="u_nav-li" onclick="search('bing', 'pc')">Bing</span></li>
-                                <li><span class="u_nav-li" onclick="search('baidu', 'pc')">百度</span></li>
                                 <li><span class="u_nav-li" onclick="search('wolframalpha', 'pc')">Wolfram</span></li>
-                            </ul>
+                                </ul>
                         </li>
                     </ul>
                 </div>
-                <!-- 移动端搜索框组 -->
                 <div class="um_nav-input-group">
                     <div class="clearfix"></div>
                     <form id="search-form-mobile">
-                        <input class="um_nav-input" id="search-mobile">
+                        <input class="um_nav-input" id="search-mobile" placeholder="Search...">
                         <input type="submit" hidden>
                     </form>
-                    <div class="um_nav-btn" onclick="search('bing', 'mobile')">Bing</div>
                     <div class="um_nav-btn" onclick="search('google', 'mobile')">Google</div>
-                    <div class="um_nav-btn" onclick="search('baidu', 'mobile')">百度</div>
+                    <div class="um_nav-btn" onclick="search('bing', 'mobile')">Bing</div>
                     <div class="um_nav-btn" onclick="search('wolframalpha_mob', 'mobile')">Wolfram</div>
                 </div>
                 <div class="u_nav-right">
-                    <a class="u_nav-link" href="https://ustc.life/">本站网址: <b>ustc.life</b></a>
-                    <a href="#" class="u_nav-link" onclick="setHome(this, window.location)">设为首页</a>
+                    <a class="u_nav-link" href="https://ktwu01.github.io/UT-life/">Site: <b>ktwu01.github.io/UT-life</b></a>
+                    <a href="#" class="u_nav-link" onclick="setHome(this, window.location)">Set as Homepage</a>
                 </div>
             </div>
         </div>
@@ -71,119 +67,119 @@ layout: none
             <div class="main clearfix">
                 <div class="main-col">
                     <div class="main-block">
-                        <span class="block-title">最多点击</span>
+                        <span class="block-title">Key Portals & Support</span>
                         <div class="block-grid-wrapper clearfix">
-                            {% include block-grid.html url="https://jw.ustc.edu.cn/" title="教务系统" icon="fad fa-bug" %}
-                            {% include block-grid.html url="https://icourse.club/" title="评课社区" icon="fad fa-swap-opacity fa-pen-nib" %}
-                            {% include block-grid.html url="https://mail.ustc.edu.cn/" title="邮箱" icon="fad fa-envelope" %}
-                            {% include block-grid.html url="http://lib.ustc.edu.cn/" title="图书馆" icon="fad fa-books" %}
-                            {% include block-grid.html url="https://www.ustc.edu.cn/" title="科大官网" icon="fad fa-browser" %}
-                            {% include block-grid.html url="https://course.ustc.edu.cn/portal" title="网络教学平台" icon="fad fa-spell-check" %}
-                            {% include block-grid.html url="https://www.teach.ustc.edu.cn/" title="教务处" icon="fad fa-briefcase" %}
-                            {% include block-grid.html url="https://nan7market.com/" title="南七集市" icon="fad fa-store" %}
-                            {% include block-grid.html url="http://wlt.ustc.edu.cn/" title="网络通" icon="fad fa-globe" %}
+                            {% include block-grid.html url="https://my.utexas.edu/" title="MyUT Portal" icon="fad fa-house-user" %}
+                            {% include block-grid.html url="https://utexas.instructure.com/" title="Canvas" icon="fad fa-chalkboard-user" %}
+                            {% include block-grid.html url="https://global.utexas.edu/isss" title="ISSS (International)" icon="fad fa-passport" %}
+                            {% include block-grid.html url="https://police.utexas.edu/" title="UTPD (Police)" icon="fad fa-shield-halved" %}
+                            {% include block-grid.html url="https://emergency.utexas.edu/" title="Emergency Info" icon="fad fa-triangle-exclamation" %}
+                            {% include block-grid.html url="https://www.healthyhorns.utexas.edu/" title="University Health (UHS)" icon="fad fa-briefcase-medical" %}
+                            {% include block-grid.html url="https://cmhc.utexas.edu/" title="Counseling (CMHC)" icon="fad fa-brain" %}
+                            {% include block-grid.html url="https://utdirect.utexas.edu/" title="UT Direct" icon="fad fa-link" %}
                         </div>
                     </div>
                     <div class="main-block">
-                        <span class="block-title">学习</span>
+                        <span class="block-title">Academics & Registration</span>
                         <div class="block-grid-wrapper clearfix">
-                            {% include block-grid.html url="http://staff.ustc.edu.cn/" title="教工 FTP 主页" icon="fad fa-swap-opacity fa-house-signal" %}
-                            {% include block-grid.html url="https://mis.teach.ustc.edu.cn/" title="旧版教务系统" icon="fad fa-swap-opacity fa-heart-broken" %}
-                            {% include block-grid.html url="https://jxzy.ustc.edu.cn/" title="大物实验 1" icon="fad fa-swap-opacity fa-flask" %}
-                            {% include block-grid.html url="https://catalog.ustc.edu.cn/query" title="公共查询" icon="fad fa-file-search" %}
-                            {% include block-grid.html url="https://tam.cmet.ustc.edu.cn/" title="助教管理系统" icon="fad fa-chalkboard-teacher" %}
-                            {% include block-grid.html url="http://etis.ustc.edu.cn/" title="大物实验 2" icon="fad fa-swap-opacity fa-flask" %}
-                            {% include block-grid.html url="https://xgyth.ustc.edu.cn/" title="学工一体化" icon="fad fa-chalkboard-teacher" %}
-                            {% include block-grid.html url="https://ot.ustc.edu.cn/" title="蜗壳学社" icon="fad fa-comment-alt-lines" %}
-                            {% include block-grid.html url="https://lib.ustc.edu.cn/%e5%9b%be%e4%b9%a6%e9%a6%86%e7%a0%94%e4%bf%ae%e9%97%b4%e9%a2%84%e7%ba%a6%e7%b3%bb%e7%bb%9f/" title="学习空间预约" icon="fad fa-address-book" %}
-                            {% include block-grid.html url="http://roombooking.cmet.ustc.edu.cn/" title="中区研修室预约" icon="fad fa-users-class" %}
-                            {% include block-grid.html url="https://dawu.feixu.site/" title="大雾实验工具" icon="fad fa-atom" %}
-                            {% include block-grid.html url="https://pems.ustc.edu.cn/" title="大物实验 3" icon="fad fa-swap-opacity fa-flask" %}
+                            {% include block-grid.html url="https://registrar.utexas.edu/schedules" title="Course Schedules" icon="fad fa-calendar-days" %}
+                            {% include block-grid.html url="https://utdirect.utexas.edu/registrar/ris.WBX" title="Registration Info (RIS)" icon="fad fa-file-lines" %}
+                            {% include block-grid.html url="https://registrar.utexas.edu/calendars" title="Academic Calendar" icon="fad fa-calendar-week" %}
+                            {% include block-grid.html url="https://registrar.utexas.edu/services" title="Registrar Services" icon="fad fa-landmark" %}
+                            {% include block-grid.html url="https://www.lib.utexas.edu/" title="UT Libraries" icon="fad fa-books" %}
+                            {% include block-grid.html url="https://ugs.utexas.edu/slc" title="Sanger Learning Center" icon="fad fa-person-chalkboard" %}
+                            {% include block-grid.html url="https://gradschool.utexas.edu/" title="Graduate School" icon="fad fa-user-graduate" %}
+                            {% include block-grid.html url="https://gradschool.utexas.edu/admissions/after-your-decision" title="Grad New Student Info" icon="fad fa-person-circle-plus" %}
                         </div>
                     </div>
-                </div>
-                <div class="main-col">
-                    <div class="main-block">
-                        <span class="block-title">生活</span>
+                     <div class="main-block">
+                        <span class="block-title">International Student Services (ISSS)</span>
                         <div class="block-grid-wrapper clearfix">
-                            {% include block-grid.html url="http://lswhw.ustc.edu.cn/" title="历史文化" icon="fad fa-landmark" %}
-                            {% include block-grid.html url="https://bbs.ustc.edu.cn/" title="瀚海星云" icon="fad fa-comments" %}
-                            {% include block-grid.html url="http://www.ustcbbq.com/" title="表白墙" icon="fad fa-swap-opacity fa-heart" %}
-                            {% include block-grid.html url="https://i.ustc.edu.cn/" title="校园信息门户" icon="fad fa-swap-opacity fa-newspaper" %}
-                            {% include block-grid.html url="http://home.ustc.edu.cn/" title="个人 FTP 主页" icon="fad fa-swap-opacity fa-house-signal" %}
-                            {% include block-grid.html url="https://rec.ustc.edu.cn/" title="睿客网" icon="fad fa-bookmark" %}
-                            {% include block-grid.html url="https://ecard.ustc.edu.cn/" title="一卡通管理" icon="fad fa-id-card" %}
-                            {% include block-grid.html url="https://adrain.ustclug.org/" title="Admission Rain" icon="fad fa-graduation-cap" %}
-                            {% include block-grid.html url="https://zbh.ustc.edu.cn/" title="正版软件" icon="fad fa-swap-opacity fa-save" %}
-                            {% include block-grid.html url="https://weixinprinthost.woquyun.com/wq-web/" title="自助打印复印" icon="fad fa-print" %}
-                            {% include block-grid.html url="https://young.ustc.edu.cn/login" title="第二课堂" icon="fad fa-circle-2" %}
-                            {% include block-grid.html url="https://ustcforum.com/" title="南七茶馆" icon="fad fa-mug-tea" %}
-                            {% include block-grid.html url="https://ustcflyer.com/" title="飞跃网站" icon="fad fa-graduation-cap" %}
-                            {% include block-grid.html url="https://qq.ustc.life/" title="QQ 号证明" icon="fab fa-qq" %}
-                        </div>
-                    </div>
-                    <div class="main-block">
-                        <span class="block-title">技术</span>
-                        <div class="block-grid-wrapper clearfix">
-                            {% include block-grid.html url="https://wvpn.ustc.edu.cn/" title="Web VPN" icon="fad fa-chart-network" %}
-                            {% include block-grid.html url="https://mirrors.ustc.edu.cn/" title="开源软件镜像" icon="fab fa-linux" %}
-                            {% include block-grid.html url="https://git.ustc.edu.cn/" title="SCC GitLab" icon="fab fa-git-alt" %}
-                            {% include block-grid.html url="https://git.lug.ustc.edu.cn/" title="LUG GitLab" icon="fab fa-git-alt" %}
-                            {% include block-grid.html url="https://latex.ustc.edu.cn/" title="USTC LaTeX" icon="fad fa-typewriter" %}
-                            {% include block-grid.html url="https://vlab.ustc.edu.cn/" title="Vlab" icon="fad fa-computer" %}
-                        </div>
-                    </div>
-                    <div class="main-block">
-                        <span class="block-title">教室查询</span>
-                        <div class="block-grid-wrapper clearfix">
-                            {% include block-grid.html url="http://bigscreen.cmet.ustc.edu.cn/#/2" title="二教" icon="fad fa-school" %}
-                            {% include block-grid.html url="http://bigscreen.cmet.ustc.edu.cn/#/3" title="三教" icon="fad fa-school" %}
-                            {% include block-grid.html url="http://bigscreen.cmet.ustc.edu.cn/#/5" title="五教" icon="fad fa-school" %}
+                            {% include block-grid.html url="https://global.utexas.edu/isss" title="ISSS Home" icon="fad fa-passport" %}
+                            {% include block-grid.html url="https://global.utexas.edu/isss/about/contact" title="ISSS Advising/Contact" icon="fad fa-comments-question" %}
+                            {% include block-grid.html url="https://global.utexas.edu/isss/immigration" title="Visa & Immigration" icon="fad fa-file-contract" %}
+                            {% include block-grid.html url="https://global.utexas.edu/isss/employment/f1" title="CPT/OPT (F-1)" icon="fad fa-briefcase" %}
+                            {% include block-grid.html url="https://global.utexas.edu/isss/insurance" title="Insurance Info" icon="fad fa-file-medical" %}
+                            {% include block-grid.html url="https://global.utexas.edu/isss/insurance/students/waivers" title="Insurance Waivers" icon="fad fa-file-shield" %}
+                            {% include block-grid.html url="https://global.utexas.edu/isss/sponsored-students/taxes" title="Tax Information" icon="fad fa-file-invoice-dollar" %}
                         </div>
                     </div>
                 </div>
+
                 <div class="main-col">
                     <div class="main-block">
-                        <span class="block-title">外部网站</span>
+                        <span class="block-title">Financial & Employment</span>
                         <div class="block-grid-wrapper clearfix">
-                            {% include block-grid.html url="https://www.zhihu.com/" title="知乎" icon="fab fa-zhihu" %}
-                            {% include block-grid.html url="https://www.bilibili.com/" title="bilibili" icon="fab fa-bilibili" %}
-                            {% include block-grid.html url="https://www.weibo.com/" title="微博" icon="fab fa-weibo" %}
+                            {% include block-grid.html url="https://utdirect.utexas.edu/acct/fb/my_tuition_bill/my_bill.WBX" title="What I Owe (Tuition)" icon="fad fa-money-check-dollar" %}
+                            {% include block-grid.html url="https://utdirect.utexas.edu/acct/fb/waivers/index.WBX" title="Tuition Bill Waiver" icon="fad fa-file-circle-minus" %}
+                            {% include block-grid.html url="https://utdirect.utexas.edu/payroll/po8/bank_info.WBX" title="My Bank Info (Direct Deposit)" icon="fad fa-money-bill-transfer" %}
+                            {% include block-grid.html url="https://finaid.utexas.edu/" title="Financial Aid" icon="fad fa-hand-holding-dollar" %}
+                            {% include block-grid.html url="https://careerengagement.utexas.edu/hireutexas/" title="HireUTexas (Jobs)" icon="fad fa-magnifying-glass-dollar" %}
+                             {% include block-grid.html url="https://utexas.joinhandshake.com/" title="Handshake Login" icon="fad fa-waving-hand" %}
                         </div>
                     </div>
                     <div class="main-block">
-                        <span class="block-title">研究生</span>
+                        <span class="block-title">Campus Life & Utilities</span>
                         <div class="block-grid-wrapper clearfix">
-                            {% include block-grid.html url="https://yjs1.ustc.edu.cn/" title="综合服务平台" icon="fad fa-chalkboard-teacher" %}
-                            {% include block-grid.html url="https://epc.ustc.edu.cn/main.asp" title="EPC 平台" icon="fad fa-spell-check" %}
-                            {% include block-grid.html url="https://gradschool.ustc.edu.cn/" title="研究生院网站" icon="fad fa-browser" %}
+                            {% include block-grid.html url="https://housing.utexas.edu/" title="Housing & Dining" icon="fad fa-bed-front" %}
+                            {% include block-grid.html url="https://dining.utexas.edu/" title="UT Dining Info" icon="fad fa-utensils" %}
+                            {% include block-grid.html url="https://maps.utexas.edu/" title="Campus Map" icon="fad fa-map-location-dot" %}
+                            {% include block-grid.html url="https://parking.utexas.edu/transportation/shuttles" title="Shuttle Buses" icon="fad fa-bus-simple" %}
+                            {% include block-grid.html url="https://parking.utexas.edu/" title="Parking (PTS)" icon="fad fa-square-parking" %}
+                            {% include block-grid.html url="https://www.utrecsports.org/" title="Recreational Sports" icon="fad fa-person-running" %}
+                            {% include block-grid.html url="https://deanofstudents.utexas.edu/hornslink/" title="HornsLink (Student Orgs)" icon="fad fa-users-medical" %}
+                            {% include block-grid.html url="https://events.utexas.edu/" title="UT Events Calendar" icon="fad fa-calendar-star" %}
                         </div>
                     </div>
                     <div class="main-block">
-                        <span class="block-title">最少点击</span>
+                        <span class="block-title">Technology & Resources</span>
                         <div class="block-grid-wrapper clearfix">
-                            {% include block-grid.html url="http://202.38.65.52/xyzd/" title="学业指导中心" icon="fad fa-swap-opacity fa-building" %}
-                            {% include block-grid.html url="https://baike.ustc.edu.cn/" title="校园百科" icon="far fa-question-circle" %}
-                            {% include block-grid.html url="https://scc.ustc.edu.cn/" title="超算中心" icon="fad fa-server" %}
-                            {% include block-grid.html url="https://sf.ustc.edu.cn/" title="网上缴费系统" icon="fad fa-yen-sign" %}
-                            {% include block-grid.html url="https://hospital.ustc.edu.cn/" title="校医院" icon="fad fa-hospital" %}
-                            {% include block-grid.html url="https://verify-transcript.cmet.ustc.edu.cn/manager.action" title="成绩单打印" icon="fad fa-print" %}
-                            {% include block-grid.html url="https://welcome.ustc.edu.cn/" title="迎新网" icon="far fa-grin-wink" %}
-                            {% include block-grid.html url="https://zsb.ustc.edu.cn/" title="招生办" icon="fad fa-wand-magic" %}
-                            {% include block-grid.html url="https://fix.ustc.edu.cn/" title="教学设备报修" icon="fad fa-swap-opacity fa-wrench" %}
+                            {% include block-grid.html url="https://its.utexas.edu/help" title="ITS Help Desk" icon="fad fa-headset" %}
+                            {% include block-grid.html url="https://office365.utexas.edu/" title="UTMail (Outlook)" icon="fad fa-envelope" %}
+                            {% include block-grid.html url="https://its.utexas.edu/services/virtual-private-network-vpn" title="UT VPN" icon="fad fa-shield-keyhole" %}
+                            {% include block-grid.html url="https://its.utexas.edu/services/software-downloads-discounts" title="Software Downloads" icon="fad fa-floppy-disk" %}
+                            {% include block-grid.html url="https://login.utexas.edu/maps/portal/DuoSelfService-Prod/" title="Duo MFA Management" icon="fad fa-mobile-screen-button" %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-col">
+                    <div class="main-block">
+                        <span class="block-title">Legal & Other Support</span>
+                        <div class="block-grid-wrapper clearfix">
+                            {% include block-grid.html url="https://deanofstudents.utexas.edu/legalservices/" title="Student Legal Services" icon="fad fa-gavel" %}
+                            {% include block-grid.html url="https://ombuds.utexas.edu/student" title="Student Ombuds" icon="fad fa-scale-balanced" %}
+                            {% include block-grid.html url="https://titleix.utexas.edu/" title="Title IX Office" icon="fad fa-book-user" %}
+                            {% include block-grid.html url="https://ddce.utexas.edu/disability/" title="Disability & Access" icon="fad fa-universal-access" %}
+                        </div>
+                    </div>
+                    <div class="main-block">
+                        <span class="block-title">Getting Started / New Students</span>
+                        <div class="block-grid-wrapper clearfix">
+                            {% include block-grid.html url="https://guide.utcssa.net/" title="UTCSSA Guide" icon="fad fa-book-sparkles" %}
+                            {% include block-grid.html url="https://utdirect.utexas.edu/apps/adm/mystatus/" title="MyStatus (Admissions)" icon="fad fa-file-check" %}
+                            {% include block-grid.html url="https://admissions.utexas.edu/enroll/freshman-checklist" title="New Freshman Checklist" icon="fad fa-list-check" %}
+                            {% include block-grid.html url="https://gradschool.utexas.edu/admissions/after-your-decision" title="New Grad Checklist" icon="fad fa-list-check" %}
+                        </div>
+                    </div>
+                    <div class="main-block">
+                        <span class="block-title">Austin & Beyond (External)</span>
+                        <div class="block-grid-wrapper clearfix">
+                            {% include block-grid.html url="https://www.austintexas.gov/" title="City of Austin" icon="fad fa-city" %}
+                            {% include block-grid.html url="https://www.capmetro.org/" title="CapMetro (Public Transit)" icon="fab fa-avianex" %} {% include block-grid.html url="https://www.austintexas.gov/airport" title="Austin Airport (AUS)" icon="fad fa-plane-departure" %}
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer">
-                <a href="https://ustc.life/">USTC 导航</a>是 <a href="https://0x01.me/">Hypercube</a> 受到<a href="https://sqrt-1.me/">负一的平方根</a>的<a href="https://github.com/zzh1996/USTC-Network-Resources/blob/master/README.md">一篇文章</a>启发后，为科大人量身打造的浏览器首页。
-                不属于常用链接，但仍然有价值的网络资源，参见<a href="https://github.com/zzh1996/USTC-Network-Resources/blob/master/README.md">那篇文章</a>。
+                <a href="https://ktwu01.github.io/UT-life/">UT-Life Navigation</a> is a resource page for UT-Austin international students,
+                inspired by projects like <a href="https://ustc.life/" target="_blank" rel="noopener noreferrer">USTC Navigation</a>.
                 <br><br>
-                项目源码：<a href="https://github.com/SmartHypercube/ustclife">github.com/SmartHypercube/ustclife</a>，报错或申请收录请<a href="https://github.com/SmartHypercube/ustclife/issues">创建 issue</a>。
-                特别感谢 <a href="https://ewind.us/">doodlewind</a> 和 <a href="https://ibug.io/">iBug</a> 参与开发。
+                Project Source: <a href="https://github.com/ktwu01/UT-life" target="_blank" rel="noopener noreferrer">github.com/ktwu01/UT-life</a>.
+                For errors or to suggest a link, please <a href="https://github.com/ktwu01/UT-life/issues" target="_blank" rel="noopener noreferrer">create an issue</a>.
                 <br><br>
-                Copyright © USTC 导航 2016 - {{ site.time | date: "%Y" }} <a href="https://tongji.baidu.com/web/help/article?id=330&type=0&castk=LTE%3D">百度统计</a>
-            </div>
+                Copyright © UT-Life {{ site.time | date: "%Y" }}
+                </div>
         </div>
     </body>
     <script>
