@@ -12,3 +12,6 @@ Note from [SmartHypercube/ustclife](https://ustc.life/):
 项目源码：[github.com/SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife)，报错或申请收录请[创建 issue](https://github.com/SmartHypercube/ustclife/issues)。 特别感谢 [doodlewind](https://ewind.us/) 和 [iBug](https://ibug.io/) 参与开发。  
   
 Copyright © USTC 导航 2016 - 2025 [百度统计](https://tongji.baidu.com/web/help/article?id=330&type=0&castk=LTE%3D)
+
+## How to search and change the logos:
+https://fontawesome.com/search
