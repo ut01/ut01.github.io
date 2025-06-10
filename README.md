@@ -49,6 +49,11 @@ You will find a file named `index.html`. Open it and follow the guidance inscrib
 
 **Note:** While editing the template, ensure you have updated all `href`, img `src`, and `alt` attributes of links and images.
 
+
+### Create pull request
+
+After making edits on your own clone of this repository, [create a new branch for a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+
 ---
 
 The original code is distributed by [SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife).
