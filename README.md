@@ -38,6 +38,9 @@ You will find a file named `index.html`. Open it and follow the guidance inscrib
 {% include block-grid.html url="https://housing.utexas.edu/housing" title="Housing" icon="fad fa-bed-front" %}
 ```
 
+**Where to search and change the logos:**
+https://fontawesome.com/search
+
 ```html
   <!-- Replace with better icon -->
 {% include block-grid.html url="https://housing.utexas.edu/housing" title="Housing" icon="fad fa-bed-front" %}
@@ -47,12 +50,18 @@ You will find a file named `index.html`. Open it and follow the guidance inscrib
 </div>
 ```
 
+
 **Note:** While editing the template, ensure you have updated all `href`, img `src`, and `alt` attributes of links and images.
 
 
 ### Create pull request
 
 After making edits on your own clone of this repository, [create a new branch for a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+
+### ❤️ ❤️ ❤️ Wait for pull request to be received and merged
+Please wait for pull request to be received and merged, so that your modifications are accepted and deployed on the web page. 
+
+You can [contact me](https://github.com/ktwu01/ktwu01/blob/main/README.md) for a faster pull request review.
 
 ---
 
@@ -66,6 +75,5 @@ Note from [SmartHypercube/ustclife](https://ustc.life/):
   
 Copyright © USTC 导航 2016 - 2025 [百度统计](https://tongji.baidu.com/web/help/article?id=330&type=0&castk=LTE%3D)
 
-<!--- ## How to search and change the logos:
-https://fontawesome.com/search
+<!--- notes
 --->
