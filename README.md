@@ -7,6 +7,49 @@ The code and design of this webpage based on those by [SmartHypercube/ustclife](
 The modified code of UT-life is released under the MIT license.
 
 ---
+Contributions are warmly welcomed. ❤️
+---
+
+Please follow these three steps to make contributions.
+
+- [Cloning the repository](#cloning-the-repository)
+- [Editing the Template](#editing-the-template)
+- [Deploying the Site](#deploying-the-site)
+
+### Cloning the Repository.
+
+If you have [Git](https://git-scm.com/) installed on your computer, you can clone or download the portfolio template by running the following command in your terminal.
+
+```bash
+git clone https://github.com/ut01/ut01.github.io
+```
+
+Alternatively, click on this [link](https://github.com/ut01/ut01.github.io/archive/refs/heads/main.zip) to download it.
+
+### Editing the `index.html`
+
+After you get the template, please open it in the code editor of your choice.
+You will find a file named `index.html`. Open it and follow the guidance inscribed within the comments to customize the template.
+
+**For example:**
+
+```html
+<!-- Update with links, title, and icon -->
+{% include block-grid.html url="https://housing.utexas.edu/housing" title="Housing" icon="fad fa-bed-front" %}
+```
+
+```html
+  <!-- Replace with better icon -->
+{% include block-grid.html url="https://housing.utexas.edu/housing" title="Housing" icon="fad fa-bed-front" %}
+
+  <!-- Add a new piece -->
+{% include block-grid.html url="https://housing.utexas.edu/housing" title="Housing" icon="fad fa-bed-front" %}
+</div>
+```
+
+**Note:** While editing the template, ensure you have updated all `href`, img `src`, and `alt` attributes of links and images.
+
+---
 
 The original code is distributed by [SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife).
  
