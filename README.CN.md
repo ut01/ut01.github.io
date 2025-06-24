@@ -14,6 +14,7 @@
 **ut01** 是一个由学生自建的导航主页，将重要的UT Austin链接集中在一个地方。由 [Koutian Wu](https://github.com/ktwu01/)，一名UT Austin博士生（24级）创建，旨在解决浏览复杂大学网站层级和频繁登录超时的困扰。
 
 ![ut01 Screenshot](./assets/Screenshot-Multiple-Device-ut01.png)
+![ut01 Screenshot](./assets/Screenshot-Mobile-Device-ut01.png)
 
 ---
 

@@ -14,6 +14,7 @@
 **ut01** is a student-built navigation homepage that consolidates all essential UT Austin links in one place. Created by [Koutian Wu](https://github.com/ktwu01/), a UT Austin PhD student (Class of '24) to solve the frustration of navigating deep university website hierarchies and dealing with frequent login timeouts.
 
 ![ut01 Screenshot](./assets/Screenshot-Multiple-Device-ut01.png)
+![ut01 Screenshot](./assets/Screenshot-Mobile-Device-ut01.png)
 
 ---
 
