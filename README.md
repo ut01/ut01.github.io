@@ -1,5 +1,8 @@
 # ut01 - UT Austin Student Navigation Hub!
 
+
+[![English](https://img.shields.io/badge/lang-English-blue.svg)](README.md)
+[![中文](https://img.shields.io/badge/lang-中文-brown.svg)](README.CN.md)
 [![Website](https://img.shields.io/website?url=https%3A//ut01.github.io)](https://ut01.github.io/) [![GitHub stars](https://img.shields.io/github/stars/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io) [![GitHub forks](https://img.shields.io/github/forks/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io/fork) [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 > **One-stop navigation for UT Austin students** 🤘  
