@@ -1,9 +1,8 @@
 # ut01 - 德州大学奥斯汀分校的学生网页导航！
 
-
 [![English](https://img.shields.io/badge/lang-English-blue.svg)](README.md)
 [![中文](https://img.shields.io/badge/lang-中文-brown.svg)](README.CN.md)
-[![Website](https://img.shields.io/website?url=https%3A//ut01.github.io)](https://ut01.github.io/) [![GitHub stars](https://img.shields.io/github/stars/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io) [![GitHub forks](https://img.shields.io/github/forks/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io/fork) [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Website](https://img.shields.io/website?url=https%3A//ut01.github.io)](https://ut01.github.io/) [![GitHub stars](https://img.shields.io/github/stars/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io) [![GitHub forks](https://img.shields.io/github/forks/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io/fork) [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Discuss on Reddit](https://img.shields.io/badge/Discuss_on-Reddit-orange?logo=reddit)](https://www.reddit.com/r/UTAustin/comments/1loxvxu/new_to_ut_austin_tired_of_clicking_through_5/)
 
 > **UT Austin学生的一站式导航** 🤘  
 > 快速访问重要的大学链接，无需深度导航
@@ -20,6 +19,32 @@
 ![ut01 Screenshot](./assets/Screenshot-Mobile-Device-ut01.png)
 
 ---
+
+---
+## Privacy & Data Collection
+
+ut01.github.io prioritizes user privacy while providing analytics insights for site improvement.
+
+**What We Track:**
+
+- Anonymous website analytics (Google Analytics)
+- Visitor statistics (Clustrmaps)
+- No personal accounts or credentials
+
+**What We Don't Collect:**
+
+- Personal identification information
+- Login credentials
+- Educational records
+- Email addresses or contact information
+
+**Compliance:**
+
+- No FERPA-regulated educational records processed
+
+[![Reddit Comment](assets/image.png)](https://www.reddit.com/r/UTAustin/comments/1loxvxu/comment/n0ri3k4/)
+
+👉 [View Reddit comments](https://www.reddit.com/r/UTAustin/comments/1loxvxu/comment/n0ri3k4/) on r/UTAustin
 
 ## 为什么要做ut01？
 
