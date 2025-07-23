@@ -3,32 +3,7 @@
 @import "nav";
 @import "content";
 
-/* Find Button in Nav Bar Styling */
-.u_nav-btn-find {
-    position: relative;
-}
-
-.find-btn-nav {
-    background: linear-gradient(45deg, #ff6b6b, #ee5a24);
-    color: white !important;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(238, 90, 36, 0.3);
-    display: inline-block;
-    cursor: pointer;
-}
-
-.find-btn-nav:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(238, 90, 36, 0.5);
-    background: linear-gradient(45deg, #ff5252, #d63031);
-}
-
+/* Simple no-results message styling */
 .no-results-nav {
     position: absolute;
     top: 100%;
