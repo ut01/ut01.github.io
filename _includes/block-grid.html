@@ -1,8 +1,8 @@
 <div class="block-grid {{ include.extra_class }} searchable-item" data-keywords="{{ include.title | downcase }} {{ include.keywords | downcase }}">
-  <a href="{{ include.url }}" target="_blank" title="{{ include.title }}">
+  <a href="{{ include.url }}" target="_blank" title="{{ include.title }}" rel="noopener noreferrer">
     <div class="grid-title">{{ include.title }}</div>
     <div class="grid-icon">
-      <i class="{{ include.icon }}"></i>
+      <i class="{{ include.icon }}" alt="{{ include.title }} icon" role="img"></i>
     </div>
   </a>
 </div>
