@@ -52,8 +52,8 @@
       - { url: "https://maps.utexas.edu/", title: "Campus Map", icon: "fad fa-map-location-dot", keywords: "campus map, directions, 校园地图" }
       - { url: "https://parking.utexas.edu/transportation/shuttles", title: "UT Buses", icon: "fad fa-bus-simple", keywords: "UT shuttle, bus routes, 校车" }
       - { url: "https://parking.utexas.edu/", title: "Parking", icon: "fad fa-square-parking", keywords: "parking permits, garages, 停车" }
-      - { url: "https://www.utrecsports.org/", title: "RecSports", icon: "fad fa-person-running", keywords: "recreational sports, gym, recreation, leisure, fitness, sports, exercise, workout, activities, 体育馆, 休闲, 娱乐, 运动, 健身, 体育, 锻炼, 活动" }
-      - { url: "https://www.utrecsports.org/facilities", title: "Gym Hours", icon: "fad fa-dumbbell", keywords: "gym hours, Gregory Gym, 健身房时间" }
+      - { url: "https://www.utrecsports.org/", title: "RecSports", icon: "fad fa-person-running", keywords: "recreational sports, gym, gymnasium, recreation, leisure, fitness, sports, exercise, workout, activities, rec sports, 体育馆, 休闲, 娱乐, 运动, 健身, 体育, 锻炼, 活动" }
+      - { url: "https://www.utrecsports.org/facilities", title: "Gym Hours", icon: "fad fa-dumbbell", keywords: "gym hours, Gregory Gym, gymnasium hours, fitness center hours, rec center hours, 健身房时间, 体育馆时间" }
       - { url: "https://www.healthyhorns.utexas.edu/cmhc/index.html", title: "Mental Health", icon: "fad fa-heart-circle-check", keywords: "Counseling and Mental Health Center, CMHC, 心理健康" }
 
   - section: Legal & Other Support
@@ -71,7 +71,7 @@
     section_zh: "技术与资源"
     links:
       - { url: "https://idmanager.its.utexas.edu/eid_self_help/", title: "EID Self Help", icon: "fad fa-id-card", keywords: "EID, password reset, 电子身份" }
-      - { url: "https://security.utexas.edu/MFA-Readiness", title: "Duo MFA Help", icon: "fad fa-mobile-screen-button", keywords: "Dvo, Multi-Factor Authentication, MFA, 双因素认证" }
+      - { url: "https://security.utexas.edu/MFA-Readiness", title: "Duo MFA Help", icon: "fad fa-mobile-screen-button", keywords: "Duo, Multi-Factor Authentication, MFA, 双因素认证" }
       - { url: "https://ut.service-now.com/sp", title: "IT Service", icon: "fad fa-computer", keywords: "IT service, help desk, 信息技术服务" }
       - { url: "https://ut.service-now.com/sp?id=ut_bs_service_detail&sys_id=f8a2f29b0ff3960003d2e498b1050ed8", title: "UT Serv Desk", icon: "fad fa-headset", keywords: "UT Service Desk, IT support, 服务台" }
       - { url: "https://get.utmail.utexas.edu/", title: "UT-gmail", icon: "fad fa-envelope", keywords: "UTmail, gmail, email, mail, inbox, messages, 邮箱, 邮件, 收件箱, 消息" }
