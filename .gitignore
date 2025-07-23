@@ -10,6 +10,12 @@ dist/dist
 .idea/
 */file_analysis.txt
 
+# Ruby/Jekyll files
+Gemfile
+Gemfile.lock
+.bundle/
+vendor/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
