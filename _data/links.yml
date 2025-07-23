@@ -1,0 +1,101 @@
+-
+  - section: Key Portals & Support
+    section_zh: "核心门户与支持"
+    links:
+      - { url: "https://my.utexas.edu/", title: "MyUT", icon: "fad fa-house-user", keywords: "MyUT, personal homepage, 个人主页" }
+      - { url: "https://utdirect.utexas.edu/", title: "UT Direct", icon: "fad fa-link", keywords: "UT Direct, services, directory, 服务, 目录" }
+      - { url: "https://canvas.utexas.edu/", title: "Canvas", icon: "fad fa-chalkboard-user", keywords: "Canvas, courses, assignments, 课程, 作业" }
+      - { url: "https://police.utexas.edu/", title: "UT Police", icon: "fad fa-shield-halved", keywords: "UTPD, University of Texas Police Department, police, 警察" }
+      - { url: "https://emergency.utexas.edu/", title: "Emergency Info", icon: "fad fa-triangle-exclamation", keywords: "emergency, alert, 安全, 紧急情况" }
+      - { url: "https://www.healthyhorns.utexas.edu/uhs/index.html", title: "Medical", icon: "fad fa-briefcase-medical", keywords: "University Health Services, UHS, medical, health, 医疗, 健康" }
+
+  - section: Academics & Registration
+    section_zh: "学术与注册"
+    links:
+      - { url: "https://utdirect.utexas.edu/apps/student/gradereport/student/", title: "My Grades", icon: "fad fa-chart-line", keywords: "grades, scores, academic summary, 成绩" }
+      - { url: "https://registrar.utexas.edu/schedules", title: "Course Sched", icon: "fad fa-calendar-days", keywords: "course schedule, class schedule, 课程表" }
+      - { url: "https://registrar.utexas.edu/calendars", title: "Academic Cal", icon: "fad fa-calendar-week", keywords: "academic calendar, university calendar, 校历" }
+      - { url: "https://gradschool.utexas.edu/", title: "Grad School", icon: "fad fa-user-graduate", keywords: "graduate school, 研究生院" }
+      - { url: "https://undergradcollege.utexas.edu", title: "Ugrd College", icon: "fad fa-person-chalkboard", keywords: "undergraduate college, 本科学院" }
+      - { url: "https://www.lib.utexas.edu/", title: "UT Libraries", icon: "fad fa-books", keywords: "library, books, research, 图书馆" }
+
+  - section: Before Semester / New Students
+    section_zh: "开学前/新生"
+    links:
+      - { url: "https://www.google.com/search?q=ut+austin+application", title: "Apply to UT", icon: "fad fa-graduation-cap", keywords: "apply, application, admission, 申请" }
+      - { url: "https://utdirect.utexas.edu/apps/adm/mystatus/", title: "MyStatus", icon: "fad fa-file-check", keywords: "MyStatus, admission status, 申请状态" }
+      - { url: "https://guide.utcssa.net/", title: "UTCSSA Guide", icon: "fad fa-book-sparkles", keywords: "UTCSSA Guide, Chinese Students and Scholars Association, 新生指南" }
+      - { url: "https://gradschool.utexas.edu/admissions/after-your-decision", title: "New Grad Chklst", icon: "fad fa-list-check", keywords: "new graduate student checklist, 研究生新生清单" }
+      - { url: "https://guide.utcssa.net/course-guide/preface", title: "Course Slct", icon: "fad fa-school", keywords: "course selection guide, 选课指南" }
+      - { url: "https://registrar.utexas.edu/services", title: "Regist Service", icon: "fad fa-landmark", keywords: "registrar services, 注册服务" }
+      - { url: "/registration-guide.html", title: "Course Regist", icon: "fad fa-file-lines", keywords: "course registration guide, 选课注册指南" }
+      - { url: "https://utdirect.utexas.edu/acct/fb/waivers/", title: "Tuition Waiver", icon: "fad fa-receipt", keywords: "tuition waiver, 学费减免" }
+      - { url: "https://global.utexas.edu/isss/insurance/students/waivers", title: "Insurance Waiver", icon: "fad fa-file-shield", keywords: "insurance waiver, 保险豁免" }
+
+-
+  - section: Financial
+    section_zh: "财务"
+    links:
+      - { url: "https://utdirect.utexas.edu/acct/rec/wio/wio_home.WBX", title: "What I Owe", icon: "fad fa-money-check-dollar", keywords: "what i owe, tuition, fees, 欠费" }
+      - { url: "http://utdirect.utexas.edu/apps/studentfinancials/mytuitionbill/", title: "Tuition Bill", icon: "fad fa-file-invoice-dollar", keywords: "tuition bill, payment, 学费账单" }
+      - { url: "https://utdirect.utexas.edu/acct/rec/weft/webEFT_info.WBX", title: "Direct Deposit", icon: "fad fa-money-bill-transfer", keywords: "direct deposit, bank, 工资卡" }
+      - { url: "https://finaid.utexas.edu/", title: "Financial Aid", icon: "fad fa-hand-holding-dollar", keywords: "financial aid, scholarships, loans, 经济援助" }
+      - { url: "https://www.google.com/search?q=ut%20austin%20Tax", title: "Tax Forms", icon: "fad fa-file-waveform", keywords: "tax, 1098-T, 税务" }
+      - { url: "https://onestop.utexas.edu/", title: "Texas One Stop", icon: "fad fa-landmark", keywords: "Texas One Stop, student services, 一站式服务" }
+
+  - section: Campus Life & Utilities
+    section_zh: "校园生活与设施"
+    links:
+      - { url: "https://housing.utexas.edu/housing", title: "Housing", icon: "fad fa-bed-front", keywords: "housing, dormitory, on-campus living, 住宿" }
+      - { url: "https://hf-foodpro.austin.utexas.edu/foodpro/location.aspx", title: "Menus", icon: "fad fa-utensils", keywords: "dining menus, food, 食堂菜单" }
+      - { url: "https://utdirect.utexas.edu/utapps/uhd/services/dining/", title: "Dining Bal", icon: "fad fa-dollar-sign", keywords: "dining balance, meal plan, 饭卡余额" }
+      - { url: "https://maps.utexas.edu/", title: "Campus Map", icon: "fad fa-map-location-dot", keywords: "campus map, directions, 校园地图" }
+      - { url: "https://parking.utexas.edu/transportation/shuttles", title: "UT Buses", icon: "fad fa-bus-simple", keywords: "UT shuttle, bus routes, 校车" }
+      - { url: "https://parking.utexas.edu/", title: "Parking", icon: "fad fa-square-parking", keywords: "parking permits, garages, 停车" }
+      - { url: "https://www.utrecsports.org/", title: "RecSports", icon: "fad fa-person-running", keywords: "recreational sports, gym, 体育馆" }
+      - { url: "https://www.utrecsports.org/facilities", title: "Gym Hours", icon: "fad fa-dumbbell", keywords: "gym hours, Gregory Gym, 健身房时间" }
+      - { url: "https://www.healthyhorns.utexas.edu/cmhc/index.html", title: "Mental Health", icon: "fad fa-heart-circle-check", keywords: "Counseling and Mental Health Center, CMHC, 心理健康" }
+
+  - section: Legal & Other Support
+    section_zh: "法律及其他支持"
+    links:
+      - { url: "https://www.google.com/search?q=ut+legal+services+for+students", title: "Student Legal", icon: "fad fa-gavel", keywords: "student legal services, 法律服务" }
+      - { url: "http://disability.utexas.edu/", title: "Disability & Access", icon: "fad fa-universal-access", keywords: "Disability and Access, accessibility, 残障服务" }
+      - { url: "https://titleix.utexas.edu/", title: "Title IX", icon: "fad fa-book-user", keywords: "Title IX, discrimination, harassment, 第九条" }
+      - { url: "https://ombuds.utexas.edu/student", title: "Stud Ombuds", icon: "fad fa-scale-balanced", keywords: "student ombuds, conflict resolution, 学生申诉" }
+      - { url: "https://universityevents.utexas.edu/", title: "UT Events", icon: "fad fa-calendar-star", keywords: "university events, calendar, 学校活动" }
+      - { url: "https://deanofstudents.utexas.edu/sos/", title: "SOS (Stud Otrch & Support)", icon: "fad fa-handshake-angle", keywords: "Student Outreach and Support, dean of students, SOS, 学生支持" }
+
+-
+  - section: Technology & Resources
+    section_zh: "技术与资源"
+    links:
+      - { url: "https://idmanager.its.utexas.edu/eid_self_help/", title: "EID Self Help", icon: "fad fa-id-card", keywords: "EID, password reset, 电子身份" }
+      - { url: "https://security.utexas.edu/MFA-Readiness", title: "Duo MFA Help", icon: "fad fa-mobile-screen-button", keywords: "Dvo, Multi-Factor Authentication, MFA, 双因素认证" }
+      - { url: "https://ut.service-now.com/sp", title: "IT Service", icon: "fad fa-computer", keywords: "IT service, help desk, 信息技术服务" }
+      - { url: "https://ut.service-now.com/sp?id=ut_bs_service_detail&sys_id=f8a2f29b0ff3960003d2e498b1050ed8", title: "UT Serv Desk", icon: "fad fa-headset", keywords: "UT Service Desk, IT support, 服务台" }
+      - { url: "https://get.utmail.utexas.edu/", title: "UT-gmail", icon: "fad fa-envelope", keywords: "UTmail, gmail, email, 邮箱" }
+      - { url: "https://outlook.office365.com/", title: "UT Outlook <br> Office 365 (Official Email)", icon: "fad fa-envelope", keywords: "Outlook, Office 365, official email, 官方邮箱" }
+      - { url: "https://its.utexas.edu/services/virtual-private-network-vpn", title: "UT VPN", icon: "fad fa-shield-keyhole", keywords: "VPN, Virtual Private Network, 虚拟专用网络" }
+      - { url: "https://utexas.app.box.com/", title: "UT Box", icon: "fad fa-box", keywords: "UT Box, cloud storage, 云存储" }
+      - { url: "https://utexas-my.sharepoint.com/", title: "Onedrive", icon: "fad fa-hard-drive", keywords: "Onedrive, cloud storage, 云盘" }
+      - { url: "https://tacc.utexas.edu/", title: "TACC", icon: "fad fa-server", keywords: "Texas Advanced Computing Center, supercomputer, 高性能计算" }
+      - { url: "https://utexas.zoom.us/", title: "Zoom", icon: "fad fa-video", keywords: "Zoom, video conferencing, 视频会议" }
+      - { url: "https://www.google.com/search?q=ut%20austin%20software%20downloads", title: "Softwares", icon: "fad fa-floppy-disk", keywords: "software, downloads, 软件下载" }
+
+  - section: International Student Services (ISSS)
+    section_zh: "国际学生服务 (ISSS)"
+    links:
+      - { url: "https://global.utexas.edu/isss", title: "ISSS Home", icon: "fad fa-passport", keywords: "International Student and Scholar Services, ISSS, 国际学生学者服务" }
+      - { url: "https://global.utexas.edu/isss/advising-services/myio", title: "myIO", icon: "fad fa-globe", keywords: "myIO, international office, 国际学生办公室" }
+      - { url: "https://global.utexas.edu/isss/about/contact", title: "ISSS Advising", icon: "fad fa-comments-question", keywords: "ISSS advising, immigration advising, 国际学生咨询" }
+      - { url: "https://global.utexas.edu/isss/immigration", title: "Visa & Immigration", icon: "fad fa-file-contract", keywords: "visa, immigration, CPT, OPT, 签证, 移民" }
+      - { url: "https://global.utexas.edu/isss/insurance", title: "Insurance Info", icon: "fad fa-file-medical", keywords: "health insurance, 保险" }
+
+  - section: Employment
+    section_zh: "就业"
+    links:
+      - { url: "https://www.google.com/search?q=ut+austin+CPT%2FOPT+(F-1)", title: "CPT/OPT (F-1)", icon: "fad fa-briefcase", keywords: "CPT, OPT, Curricular Practical Training, Optional Practical Training, F-1, internship, work, 实习, 工作" }
+      - { url: "https://careersuccess.utexas.edu/", title: "Career Success", icon: "fad fa-magnifying-glass-dollar", keywords: "Texas Career Success, career services, resume, interview, 职业成功" }
+      - { url: "https://utexas.joinhandshake.com/", title: "Handshake", icon: "fad fa-handshake", keywords: "Handshake, jobs, internships, career fair, 招聘" }
+      - { url: "https://cloud.wikis.utexas.edu/", title: "UT Wikis", icon: "fab fa-wikipedia-w", keywords: "UT Wikis, collaboration, documentation, 维基" }

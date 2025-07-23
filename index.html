@@ -84,46 +84,26 @@ layout: none
                 </div>
             </div>
         </div>
+        <div class="find-wrapper">
+            <input type="text" id="find-in-page-input" class="u_nav-input" placeholder="Find on this page...">
+            <div id="no-results-message" class="no-results" style="display: none; text-align: center; padding: 20px; color: #666;">
+                No results found. Try a different search term.
+            </div>
+        </div>
         <div class="u_main-wrapper">
             <div class="main clearfix">
+                {% assign columns = site.data.links %}
                 <div class="main-col">
+                    {% for section in columns[0] %}
                     <div class="main-block">
-                        <h2 class="block-title">Key Portals & Support</h2>
+                        <h2 class="block-title">{{ section.section }}</h2>
                         <div class="block-grid-wrapper clearfix">
-                            {% include block-grid.html url="https://my.utexas.edu/" title="MyUT" icon="fad fa-house-user" %}
-                            {% include block-grid.html url="https://utdirect.utexas.edu/" title="UT Direct" icon="fad fa-link" %}
-                            {% include block-grid.html url="https://canvas.utexas.edu/" title="Canvas" icon="fad fa-chalkboard-user" %}
-                            {% include block-grid.html url="https://police.utexas.edu/" title="UT Police" icon="fad fa-shield-halved" %}
-                            {% include block-grid.html url="https://emergency.utexas.edu/" title="Emergency Info" icon="fad fa-triangle-exclamation" %}
-                            {% include block-grid.html url="https://www.healthyhorns.utexas.edu/uhs/index.html" title="Medical" icon="fad fa-briefcase-medical" %}
+                            {% for link in section.links %}
+                                {% include block-grid.html url=link.url title=link.title icon=link.icon keywords=link.keywords %}
+                            {% endfor %}
                         </div>
                     </div>
-                    <div class="main-block">
-                        <h2 class="block-title">Academics & Registration</h2>
-                        <div class="block-grid-wrapper clearfix">
-                            {% include block-grid.html url="https://utdirect.utexas.edu/apps/student/gradereport/student/" title="My Grades" icon="fad fa-chart-line" %}
-                            {% include block-grid.html url="https://registrar.utexas.edu/schedules" title="Course Sched" icon="fad fa-calendar-days" %}
-                            {% include block-grid.html url="https://registrar.utexas.edu/calendars" title="Academic Cal" icon="fad fa-calendar-week" %}
-                            {% include block-grid.html url="https://gradschool.utexas.edu/" title="Grad School" icon="fad fa-user-graduate" %}
-                            {% include block-grid.html url="https://undergradcollege.utexas.edu" title="Ugrd College" icon="fad fa-person-chalkboard" %}
-                            {% include block-grid.html url="https://www.lib.utexas.edu/" title="UT Libraries" icon="fad fa-books" %}
-                        </div>
-                    </div>
-                     <div class="main-block">
-                        <h2 class="block-title">Before Semester / New Students</h2>
-                        <div class="block-grid-wrapper clearfix">
-                            {% include block-grid.html url="https://www.google.com/search?q=ut+austin+application" title="Apply to UT" icon="fad fa-graduation-cap" %}
-                            {% include block-grid.html url="https://utdirect.utexas.edu/apps/adm/mystatus/" title="MyStatus" icon="fad fa-file-check" %}
-                            {% include block-grid.html url="https://guide.utcssa.net/" title="UTCSSA Guide" icon="fad fa-book-sparkles" %}
-                            <!--- {% include block-grid.html url="https://admissions.utexas.edu/enroll/freshman-checklist" title="Freshman Chklst" icon="fad fa-list-check" %} -->
-                            {% include block-grid.html url="https://gradschool.utexas.edu/admissions/after-your-decision" title="New Grad Chklst" icon="fad fa-list-check" %}
-                            {% include block-grid.html url="https://guide.utcssa.net/course-guide/preface" title="Course Slct" icon="fad fa-school" %}
-                            {% include block-grid.html url="https://registrar.utexas.edu/services" title="Regist Service" icon="fad fa-landmark" %}
-                            {% include block-grid.html url="/registration-guide.html" title="Course Regist" icon="fad fa-file-lines" %}
-                            {% include block-grid.html url="https://utdirect.utexas.edu/acct/fb/waivers/" title="Tuition Waiver" icon="fad fa-receipt" %}
-                            {% include block-grid.html url="https://global.utexas.edu/isss/insurance/students/waivers" title="Insurance Waiver" icon="fad fa-file-shield" %}
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
 
                 <div class="main-col">
@@ -255,5 +235,47 @@ layout: none
             e.preventDefault();
             search('bing', 'mobile');
         };
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('find-in-page-input');
+            const noResultsMessage = document.getElementById('no-results-message');
+            if (!searchInput) return;
+
+            const mainBlocks = document.querySelectorAll('.main-block');
+
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase().trim();
+                let totalVisibleItems = 0;
+
+                mainBlocks.forEach(function(block) {
+                    const items = block.querySelectorAll('.searchable-item');
+                    let hasVisibleItems = false;
+
+                    items.forEach(function(item) {
+                        const keywords = item.getAttribute('data-keywords');
+                        if (searchTerm === '' || keywords.includes(searchTerm)) {
+                            item.style.display = 'block';
+                            hasVisibleItems = true;
+                            totalVisibleItems++;
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+
+                    if (hasVisibleItems || searchTerm === '') {
+                        block.style.display = 'block';
+                    } else {
+                        block.style.display = 'none';
+                    }
+                });
+
+                // Show/hide no results message
+                if (searchTerm !== '' && totalVisibleItems === 0) {
+                    noResultsMessage.style.display = 'block';
+                } else {
+                    noResultsMessage.style.display = 'none';
+                }
+            });
+        });
     </script>
 </html>
