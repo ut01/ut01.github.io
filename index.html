@@ -68,6 +68,20 @@ layout: none
                         </li>
                     </ul>
                 </div>
+                <div class="u_nav-input-group">
+                    <form id="find-form-pc">
+                        <input class="u_nav-input" id="find-in-page-input" placeholder="Find on this page...">
+                        <input type="submit" hidden>
+                    </form>
+                    <ul>
+                        <li class="u_nav-btn u_nav-btn-find">
+                            <span class="find-btn-nav">🔍 FIND</span>
+                        </li>
+                    </ul>
+                    <div id="no-results-message" class="no-results-nav" style="display: none;">
+                        No results found. Try a different search term.
+                    </div>
+                </div>
                 <div class="um_nav-input-group">
                     <div class="clearfix"></div>
                     <form id="search-form-mobile">
@@ -84,28 +98,6 @@ layout: none
                 </div>
             </div>
         </div>
-        
-        <!-- Prominent Find Section -->
-        <div class="find-section-wrapper">
-            <div class="find-section">
-                <div class="find-container">
-                    <h2 class="find-title">🔍 Find on This Page</h2>
-                    <form id="find-form-main" class="find-form">
-                        <div class="find-input-wrapper">
-                            <input type="text" id="find-in-page-input" class="find-input" placeholder="Search for links, keywords, or Chinese names...">
-                            <button type="button" class="find-btn">
-                                <span class="find-btn-text">FIND</span>
-                            </button>
-                        </div>
-                    </form>
-                    <div id="no-results-message" class="no-results-msg" style="display: none;">
-                        <i class="fad fa-search-minus"></i>
-                        <span>No results found. Try a different search term.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
         <div class="u_main-wrapper">
             <div class="main clearfix">
                 {% assign columns = site.data.links %}
