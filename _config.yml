@@ -1,0 +1,23 @@
+url: "https://ut01.github.io"
+title: "ut01: Quick Navigation for UT Austin Students"
+description: "A comprehensive navigation hub for UT Austin students, providing quick access to essential university resources, portals, and services."
+
+# Build settings
+plugins:
+  - jekyll-sitemap
+
+# SEO-related settings
+lang: en
+author: ut01
+twitter:
+  username: ut01
+  card: summary_large_image
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - README.CN.md
+  - LICENSE
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock 

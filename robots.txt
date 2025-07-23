@@ -1,0 +1,7 @@
+# ut01.github.io robots.txt
+User-agent: *
+Allow: /
+Sitemap: https://ut01.github.io/sitemap.xml
+
+# Disallow specific patterns if needed in the future
+# Disallow: /private/ 

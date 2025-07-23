@@ -16,15 +16,34 @@ layout: none
                 cookie_flags: 'SameSite=None;Secure'
             });
         </script>
-        <title>ut01 navigation</title>
+        <title>ut01: Quick Navigation for UT Austin Students</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="A simple GUI navigation & resource page for UT-Austin students.">
-        <meta name="keywords" content="UT Austin, UT, Texas, Austin, International Students, Navigation, Links, ISSS">
-        <meta name="author" content="GitHub: ut01, ktwu01, ...">
+        <meta name="description" content="A comprehensive navigation hub for UT Austin students. Quick access to MyUT, Canvas, registration, financial services, housing, and international student resources.">
+        <meta name="keywords" content="UT Austin, University of Texas, Austin, International Students, Student Resources, MyUT, Canvas, ISSS, Housing, Financial Aid">
+        <meta name="author" content="GitHub: ut01, ktwu01">
+        
+        <!-- Cache Control -->
         <meta http-equiv="Pragma" content="no-cache">
         <meta http-equiv="Cache-Control" content="no-cache">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://ut01.github.io/">
+        <meta property="og:title" content="ut01: Quick Navigation for UT Austin Students">
+        <meta property="og:description" content="A comprehensive navigation hub for UT Austin students. Quick access to MyUT, Canvas, registration, financial services, housing, and international student resources.">
+        <meta property="og:image" content="https://ut01.github.io/assets/Screenshot-Multiple-Device-ut01.png">
+        
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://ut01.github.io/">
+        <meta name="twitter:title" content="ut01: Quick Navigation for UT Austin Students">
+        <meta name="twitter:description" content="A comprehensive navigation hub for UT Austin students. Quick access to MyUT, Canvas, registration, financial services, housing, and international student resources.">
+        <meta name="twitter:image" content="https://ut01.github.io/assets/Screenshot-Multiple-Device-ut01.png">
+        
+        <!-- Favicon -->
         <link rel="icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="favicon.ico">
         <link href="style.css" rel="stylesheet">
         <link href="https://kit-pro.fontawesome.com/releases/v6.4.0/css/pro.min.css" rel="stylesheet">
     </head>
@@ -69,7 +88,7 @@ layout: none
             <div class="main clearfix">
                 <div class="main-col">
                     <div class="main-block">
-                        <span class="block-title">Key Portals & Support</span>
+                        <h2 class="block-title">Key Portals & Support</h2>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://my.utexas.edu/" title="MyUT" icon="fad fa-house-user" %}
                             {% include block-grid.html url="https://utdirect.utexas.edu/" title="UT Direct" icon="fad fa-link" %}
@@ -80,7 +99,7 @@ layout: none
                         </div>
                     </div>
                     <div class="main-block">
-                        <span class="block-title">Academics & Registration</span>
+                        <h2 class="block-title">Academics & Registration</h2>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://utdirect.utexas.edu/apps/student/gradereport/student/" title="My Grades" icon="fad fa-chart-line" %}
                             {% include block-grid.html url="https://registrar.utexas.edu/schedules" title="Course Sched" icon="fad fa-calendar-days" %}
@@ -91,7 +110,7 @@ layout: none
                         </div>
                     </div>
                      <div class="main-block">
-                        <span class="block-title">Before Semester / New Students</span>
+                        <h2 class="block-title">Before Semester / New Students</h2>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://www.google.com/search?q=ut+austin+application" title="Apply to UT" icon="fad fa-graduation-cap" %}
                             {% include block-grid.html url="https://utdirect.utexas.edu/apps/adm/mystatus/" title="MyStatus" icon="fad fa-file-check" %}
@@ -109,7 +128,7 @@ layout: none
 
                 <div class="main-col">
                     <div class="main-block">
-                        <span class="block-title">Financial</span>
+                        <h2 class="block-title">Financial</h2>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://utdirect.utexas.edu/acct/rec/wio/wio_home.WBX" title="What I Owe" icon="fad fa-money-check-dollar" %}
                             {% include block-grid.html url="http://utdirect.utexas.edu/apps/studentfinancials/mytuitionbill/" title="Tuition Bill" icon="fad fa-file-invoice-dollar" %}
@@ -120,7 +139,7 @@ layout: none
                         </div>
                     </div>
                     <div class="main-block">
-                        <span class="block-title">Campus Life & Utilities</span>
+                        <h2 class="block-title">Campus Life & Utilities</h2>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://housing.utexas.edu/housing" title="Housing" icon="fad fa-bed-front" %}
                             {% include block-grid.html url="https://hf-foodpro.austin.utexas.edu/foodpro/location.aspx" title="Menus" icon="fad fa-utensils" %}
@@ -134,7 +153,7 @@ layout: none
                         </div>
                     </div>
                     <div class="main-block">
-                        <span class="block-title">Legal & Other Support</span>
+                        <h2 class="block-title">Legal & Other Support</h2>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://www.google.com/search?q=ut+legal+services+for+students" title="Student Legal" icon="fad fa-gavel" %}
                             {% include block-grid.html url="http://disability.utexas.edu/" title="Disability & Access" icon="fad fa-universal-access" %}
@@ -148,7 +167,7 @@ layout: none
 
                 <div class="main-col">
                     <div class="main-block">
-                        <span class="block-title">Technology & Resources</span>
+                        <h2 class="block-title">Technology & Resources</h2>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://idmanager.its.utexas.edu/eid_self_help/" title="EID Self Help" icon="fad fa-id-card" %}
                             {% include block-grid.html url="https://security.utexas.edu/MFA-Readiness" title="Duo MFA Help" icon="fad fa-mobile-screen-button" %}
@@ -165,7 +184,7 @@ layout: none
                         </div>
                     </div>
                     <div class="main-block">
-                        <span class="block-title">International Student Services (ISSS)</span>
+                        <h2 class="block-title">International Student Services (ISSS)</h2>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://global.utexas.edu/isss" title="ISSS Home" icon="fad fa-passport" %}
                             {% include block-grid.html url="https://global.utexas.edu/isss/advising-services/myio" title="myIO" icon="fad fa-globe" %}
@@ -176,7 +195,7 @@ layout: none
                         </div>
                     </div>
                     <div class="main-block">
-                        <span class="block-title">Employment</span>
+                        <h2 class="block-title">Employment</h2>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://www.google.com/search?q=ut+austin+CPT%2FOPT+(F-1)" title="CPT/OPT (F-1)" icon="fad fa-briefcase" %}
                             {% include block-grid.html url="https://careersuccess.utexas.edu/" title="Career Success" icon="fad fa-magnifying-glass-dollar" %}

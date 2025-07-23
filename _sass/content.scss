@@ -14,11 +14,14 @@
   padding: 10px;
   background-color: white;
 }
-.block-title {
+.block-title,
+h2.block-title {
   display: block;
   margin: 5px auto 10px 15px;
   font-size: 18px;
   color: #337ab7;
+  font-weight: normal;  /* Reset h2's default bold */
+  text-align: left;
 }
 .block-grid {
   position: relative;
