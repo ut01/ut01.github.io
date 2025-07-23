@@ -68,6 +68,20 @@ layout: none
                         </li>
                     </ul>
                 </div>
+                <div class="u_nav-input-group">
+                    <form id="find-form-pc">
+                        <input class="u_nav-input" id="find-in-page-input" placeholder="Find on this page...">
+                        <input type="submit" hidden>
+                    </form>
+                    <ul>
+                        <li class="u_nav-btn">
+                            <span>Find</span>
+                        </li>
+                    </ul>
+                    <div id="no-results-message" class="no-results" style="display: none; position: absolute; top: 100%; left: 0; right: 0; background: white; border: 1px solid #ddd; padding: 10px; text-align: center; z-index: 1000;">
+                        No results found. Try a different search term.
+                    </div>
+                </div>
                 <div class="um_nav-input-group">
                     <div class="clearfix"></div>
                     <form id="search-form-mobile">
@@ -82,12 +96,6 @@ layout: none
                     <a class="u_nav-link" href="https://ut01.github.io">Site: <b>ut01.github.io</b></a>
                     <a href="#" class="u_nav-link" onclick="setHome(this, window.location)">Set as Homepage</a>
                 </div>
-            </div>
-        </div>
-        <div class="find-wrapper">
-            <input type="text" id="find-in-page-input" class="u_nav-input" placeholder="Find on this page...">
-            <div id="no-results-message" class="no-results" style="display: none; text-align: center; padding: 20px; color: #666;">
-                No results found. Try a different search term.
             </div>
         </div>
         <div class="u_main-wrapper">
