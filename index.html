@@ -109,20 +109,23 @@ layout: none
                     <div class="um_nav-btn" onclick="search('bing', 'mobile')">Bing</div>
                     <div class="um_nav-btn" onclick="search('wolframalpha_mob', 'mobile')">Wolfram</div>
                 </div>
+                <div class="u_nav-input-group" style="position: absolute; left: 30%; transform: translateX(-50%); top: 10px; margin-left: 150px; z-index: 1;">
+                    <form id="find-form-pc">
+                        <input class="u_nav-input" id="find-in-page-input" placeholder="use whole word to find in this page..." style="width: 280px;">
+                        <input type="submit" hidden>
+                    </form>
+                    <ul>
+                        <li class="u_nav-btn">
+                            <span style="font-weight: bold;">Find</span>
+                        </li>
+                    </ul>
+                    <div id="no-results-message" class="no-results-nav" style="display: none;">
+                        No results found. Try a different search term.
+                    </div>
+                </div>
                 <div class="u_nav-right">
                     <div class="u_nav-input-group" style="float: left; margin-right: 20px;">
-                        <form id="find-form-pc">
-                            <input class="u_nav-input" id="find-in-page-input" placeholder="use whole word to find in this page..." style="width: 240px;">
-                            <input type="submit" hidden>
-                        </form>
-                        <ul>
-                            <li class="u_nav-btn">
-                                <span style="font-weight: bold;">Find</span>
-                            </li>
-                        </ul>
-                        <div id="no-results-message" class="no-results-nav" style="display: none;">
-                            No results found. Try a different search term.
-                        </div>
+                        <a href="https://ut01.github.io" class="u_nav-link">ut01.github.io</a>
                     </div>
                     <a href="#" class="u_nav-link" onclick="setHome(this, window.location)">Set as Homepage</a>
                 </div>
