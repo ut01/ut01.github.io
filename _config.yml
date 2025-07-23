@@ -6,6 +6,10 @@ description: "A comprehensive navigation hub for UT Austin students, providing q
 plugins:
   - jekyll-sitemap
 
+# CSS minification
+sass:
+  style: compressed
+
 # SEO-related settings
 lang: en
 author: ut01
