@@ -9,6 +9,10 @@
 
 # **Live Site**: [ut01.github.io](https://ut01.github.io/)
 
+Click to watch the demo:
+
+[![Watch the demo](https://img.youtube.com/vi/G4b308e8a50/0.jpg)](https://youtu.be/G4b308e8a50)
+
 ---
 
 ## What is ut01?
