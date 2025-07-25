@@ -17,7 +17,7 @@ Click to watch the demo:
 
 ## 什么是ut01？
 
-**ut01** 是一个由学生自建的导航主页，将重要的UT Austin链接集中在一个地方。由 [Koutian Wu](https://github.com/ktwu01/)，一名UT Austin博士生（24级）创建，旨在解决浏览复杂大学网站层级和频繁登录超时的困扰。
+UT01 导航页（https://ut01.github.io）是由 UT Austin 学生自建的常用页面集合，比如课表、成绩、图书馆、食堂菜单、公交信息等都能一键直达，不用每次翻一堆网页。支持中英文页面内搜索。网站代码在GitHub开源、无隐私风险，欢迎收藏设为主页，也欢迎一起在 GitHub 上提建议或改进！
 
 ![ut01 Screenshot](./assets/Screenshot-Multiple-Device-ut01.png)
 ![ut01 Screenshot](./assets/Screenshot-Mobile-Device-ut01.png)
