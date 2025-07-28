@@ -28,7 +28,7 @@
       - { url: "https://gradschool.utexas.edu/admissions/after-your-decision", title: "New Grad Chklst", icon: "fad fa-list-check", keywords: "new graduate student checklist, 研究生新生清单" }
       - { url: "https://guide.utcssa.net/course-guide/preface", title: "Course Slct", icon: "fad fa-school", keywords: "course selection guide, 选课指南" }
       - { url: "https://registrar.utexas.edu/services", title: "Regist Service", icon: "fad fa-landmark", keywords: "registrar services, 注册服务" }
-      - { url: "/registration-guide.html", title: "Course Regist", icon: "fad fa-file-lines", keywords: "course registration guide, 选课注册指南" }
+      - { url: "/_data/subpage/registration-guide.html", title: "Course Regist", icon: "fad fa-file-lines", keywords: "course registration guide, 选课注册指南" }
       - { url: "https://utdirect.utexas.edu/acct/fb/waivers/", title: "Tuition Waiver", icon: "fad fa-receipt", keywords: "tuition waiver, 学费减免" }
       - { url: "https://global.utexas.edu/isss/insurance/students/waivers", title: "Insurance Waiver", icon: "fad fa-file-shield", keywords: "insurance waiver, 保险豁免" }
 
@@ -91,7 +91,7 @@
       - { url: "https://global.utexas.edu/isss/about/contact", title: "ISSS Advising", icon: "fad fa-comments-question", keywords: "ISSS advising, immigration advising, 国际学生咨询" }
       - { url: "https://global.utexas.edu/isss/immigration", title: "Visa & Immigration", icon: "fad fa-file-contract", keywords: "visa, immigration, CPT, OPT, 签证, 移民" }
       - { url: "https://global.utexas.edu/isss/insurance", title: "Insurance Info", icon: "fad fa-file-medical", keywords: "health insurance, 保险" }
-      - { url: "https://outlook.office365.com/book/EnglishLanguageCenter1@utexas.onmicrosoft.com/s/FPFk7GYYrkmIusWkNoeANg2?ismsaljsauthenabled=true", title: "ITA Test", icon: "fad fa-microphone", keywords: "ITA test, international teaching assistant oral english test, 英语口语测试, 教学助理测试" }
+      - { url: "/_data/subpage/ita-guide.html", title: "ITA Test", icon: "fad fa-microphone", keywords: "ITA test, international teaching assistant oral english test, 英语口语测试, 教学助理测试" }
 
   - section: Employment
     section_zh: "就业"
