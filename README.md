@@ -4,6 +4,8 @@
 [![中文](https://img.shields.io/badge/lang-中文-brown.svg)](README.CN.md)
 [![Website](https://img.shields.io/website?url=https%3A//ut01.github.io)](https://ut01.github.io/) [![GitHub stars](https://img.shields.io/github/stars/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io) [![GitHub forks](https://img.shields.io/github/forks/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io/fork) [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Discuss on Reddit](https://img.shields.io/badge/Discuss_on-Reddit-orange?logo=reddit)](https://www.reddit.com/r/UTAustin/comments/1loxvxu/new_to_ut_austin_tired_of_clicking_through_5/)
 
+Site Traffic Analytics: [![Visitor Count](https://clustrmaps.com/map_v2.png?d=fQvKmZbPMctrjCs0jp8rDLqKYPwmQtmFVMiOSl9YUsE&cl=ffffff&w=a&t=tt&co=ffffff&ct=000000)](https://clustrmaps.com/site/1c6il)
+
 > **One-stop navigation for UT Austin students** 🤘  
 > Quick access to essential university links without deep navigation
 
