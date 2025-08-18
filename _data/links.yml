@@ -33,6 +33,12 @@
       - { url: "https://global.utexas.edu/isss/insurance/students/waivers", title: "Insurance Waiver", icon: "fad fa-file-shield", keywords: "insurance waiver, 保险豁免, 保险豁免申请, 保险豁免流程, 保险豁免要求, 保险豁免材料, 保险豁免截止日期, 保险豁免费用, 保险豁免结果" }
 
 -
+  - section: UT AI
+    section_zh: "人工智能"
+    links:
+      - { url: "https://tech.utexas.edu/initiatives/artificial-intelligence", title: "UT AI", icon: "fad fa-robot", keywords: "UT AI, artificial intelligence, 人工智能" }
+      - { url: "https://utspark.utexas.edu/", title: "UT Spark", icon: "fad fa-sparkles", keywords: "UT Spark, 人工智能, 人工智能研究, 人工智能应用, 人工智能技术, 人工智能发展, 人工智能未来" }
+
   - section: Financial
     section_zh: "财务"
     links:
@@ -100,3 +106,5 @@
       - { url: "https://careersuccess.utexas.edu/", title: "Career Success", icon: "fad fa-magnifying-glass-dollar", keywords: "Texas Career Success, career services, resume, interview, job search, employment, 职业成功, 求职, 简历, 面试, 就业" }
       - { url: "https://utexas.joinhandshake.com/", title: "Handshake", icon: "fad fa-handshake", keywords: "Handshake, jobs, internships, career fair, recruitment, employment, networking, 招聘, 工作, 实习, 职业博览会, 求职" }
       - { url: "https://utexas.12twenty.com/", title: "12twenty (Career Success)", icon: "fad fa-briefcase", keywords: "12twenty, career success, jobs, internships, employment, career management, 职业成功, 求职, 简历, 面试, 就业" }
+      - { url: "https://cloud.wikis.utexas.edu/", title: "UT Wikis", icon: "fab fa-wikipedia-w", keywords: "UT Wikis, collaboration, documentation, 维基" }
+
