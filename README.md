@@ -17,6 +17,15 @@ Click to watch the demo:
 
 ---
 
+## feature/news
+Aug 20: New in ut01: Registration Guide 🎉
+No more searching around for scattered links—everything you need is now in one place!
+👉 https://ut01.github.io/guides/registration-guide.html
+
+Aug 18: add "UT AI" section!
+
+---
+
 ## What is ut01?
 
 **ut01** is a student-built navigation homepage that consolidates all essential UT Austin links in one place. Created by [Koutian Wu](https://github.com/ktwu01/), a UT Austin PhD student (Class of '24) to solve the frustration of navigating deep university website hierarchies and dealing with frequent login timeouts.
