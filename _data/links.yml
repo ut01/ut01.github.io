@@ -37,7 +37,7 @@
     section_zh: "人工智能"
     links:
       - { url: "https://tech.utexas.edu/initiatives/artificial-intelligence", title: "UT AI", icon: "fad fa-robot", keywords: "UT AI, artificial intelligence, 人工智能" }
-      - { url: "https://utspark.utexas.edu/", title: "UT Spark", icon: "fad fa-sparkles", keywords: "UT Spark, 人工智能, 人工智能研究, 人工智能应用, 人工智能技术, 人工智能发展, 人工智能未来" }
+      - { url: "https://spark.utexas.edu/", title: "UT Spark", icon: "fad fa-sparkles", keywords: "UT Spark, 人工智能, 人工智能研究, 人工智能应用, 人工智能技术, 人工智能发展, 人工智能未来" }
 
   - section: Financial
     section_zh: "财务"
