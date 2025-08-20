@@ -26,9 +26,9 @@
       - { url: "https://utdirect.utexas.edu/apps/adm/mystatus/", title: "MyStatus", icon: "fad fa-file-check", keywords: "MyStatus, admission status, 申请状态, 录取状态, 录取结果" }
       - { url: "https://guide.utcssa.net/", title: "UTCSSA Guide", icon: "fad fa-book-sparkles", keywords: "UTCSSA Guide, Chinese Students and Scholars Association, 新生指南" }
       - { url: "https://gradschool.utexas.edu/admissions/after-your-decision", title: "New Grad Chklst", icon: "fad fa-list-check", keywords: "new graduate student checklist, 研究生新生清单, 研究生新生指南, 研究生新生要求, 研究生新生材料, 研究生新生截止日期, 研究生新生费用, 研究生新生结果" }
-      - { url: "https://guide.utcssa.net/course-guide/preface", title: "Course Slct", icon: "fad fa-school", keywords: "course selection guide, 选课指南, 选课流程, 选课要求, 选课材料, 选课截止日期, 选课费用, 选课结果" }
+      # - { url: "https://guide.utcssa.net/course-guide/preface", title: "Course Slct", icon: "fad fa-school", keywords: "course selection guide, 选课指南, 选课流程, 选课要求, 选课材料, 选课截止日期, 选课费用, 选课结果" }
       - { url: "https://registrar.utexas.edu/services", title: "Regist Service", icon: "fad fa-landmark", keywords: "registrar services, 注册服务, 注册流程, 注册要求, 注册材料, 注册截止日期, 注册费用, 注册结果" }
-      - { url: "/guides/registration-guide.html", title: "Course Regist", icon: "fad fa-file-lines", keywords: "course registration guide, 选课注册指南, 选课注册流程, 选课注册要求, 选课注册材料, 选课注册截止日期, 选课注册费用, 选课注册结果" }
+      - { url: "/guides/registration-guide.html", title: "Course Regist", icon: "fad fa-file-lines", keywords: "course registration guide, 选课注册指南, 选课注册流程, 选课注册要求, 选课注册材料, 选课注册截止日期, 选课注册费用, 选课注册结果, 开学注册, 选课注册, 选课提醒, 选课checklist" }
       - { url: "https://utdirect.utexas.edu/acct/fb/waivers/", title: "Tuition Waiver", icon: "fad fa-receipt", keywords: "tuition waiver, 学费减免, 学费豁免, 学费减免申请, 学费减免流程, 学费减免要求, 学费减免材料, 学费减免截止日期, 学费减免费用, 学费减免结果" }
       - { url: "https://global.utexas.edu/isss/insurance/students/waivers", title: "Insurance Waiver", icon: "fad fa-file-shield", keywords: "insurance waiver, 保险豁免, 保险豁免申请, 保险豁免流程, 保险豁免要求, 保险豁免材料, 保险豁免截止日期, 保险豁免费用, 保险豁免结果" }
 
