@@ -32,6 +32,14 @@
       - { url: "https://catalog.utexas.edu/general-information/registration-tuition-and-fees/tuition-and-fees/tuition-waivers/", title: "Tuition Waiver", icon: "fad fa-receipt", keywords: "tuition waiver, 学费减免, 学费豁免, 学费减免申请, 学费减免流程, 学费减免要求, 学费减免材料, 学费减免截止日期, 学费减免费用, 学费减免结果" }
       - { url: "https://global.utexas.edu/isss/insurance/students/waivers", title: "Insurance Waiver", icon: "fad fa-file-shield", keywords: "insurance waiver, 保险豁免, 保险豁免申请, 保险豁免流程, 保险豁免要求, 保险豁免材料, 保险豁免截止日期, 保险豁免费用, 保险豁免结果" }
 
+  - section: Health & Mental
+    section_zh: "健康与心理"
+    links:
+      - { url: "https://www.healthyhorns.utexas.edu/uhs/appointments.html", title: "UHS Appointment", icon: "fad fa-calendar-check", keywords: "Schedule an Appointment, University Health Services, UHS, 预约, 预约服务, 预约流程, 预约要求, 预约材料, 预约截止日期, 预约费用, 预约结果" }
+      - { url: "https://www.healthyhorns.utexas.edu/cmhc/index.html", title: "Mental Health", icon: "fad fa-heart-circle-check", keywords: "Counseling and Mental Health Center, CMHC, 心理健康, 心理咨询, 心理咨询中心, 心理健康中心" }
+      - { url: "https://www.healthyhorns.utexas.edu/lwc/index.html", title: "Wellness Center", icon: "fad fa-heart-circle-check", keywords: "Longhorn Wellness Center, LWC, 心理健康, 心理咨询, 心理咨询中心, 心理健康中心" }
+
+
 -
   - section: UT AI
     section_zh: "人工智能"
@@ -60,7 +68,7 @@
       - { url: "https://parking.utexas.edu/", title: "Parking", icon: "fad fa-square-parking", keywords: "parking permits, garages, 停车" }
       - { url: "https://www.utrecsports.org/", title: "RecSports", icon: "fad fa-person-running", keywords: "recreational sports, gym, gymnasium, recreation, leisure, fitness, sports, exercise, workout, activities, rec sports, 体育馆, 休闲, 娱乐, 运动, 健身, 体育, 锻炼, 活动" }
       - { url: "https://www.utrecsports.org/facilities", title: "Gym Hours", icon: "fad fa-dumbbell", keywords: "gym hours, Gregory Gym, gymnasium hours, fitness center hours, rec center hours, 健身房时间, 体育馆时间, 健身房, 体育馆" }
-      - { url: "https://www.healthyhorns.utexas.edu/cmhc/index.html", title: "Mental Health", icon: "fad fa-heart-circle-check", keywords: "Counseling and Mental Health Center, CMHC, 心理健康, 心理咨询, 心理咨询中心, 心理健康中心" }
+
 
   - section: Legal & Other Support
     section_zh: "法律及其他支持"
