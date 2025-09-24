@@ -121,7 +121,7 @@ Search for icons at [FontAwesome](https://fontawesome.com/search) and update the
 
 - **Framework**: Jekyll with custom templates
 - **Hosting**: GitHub Pages
-- **License**: MIT (modified from [SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife))
+- **License**: [CC BY-SA 4.0](LICENSE). This is a fork of [SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife).
 - **Maintenance**: Student-driven updates
 
 ---
