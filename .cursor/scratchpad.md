@@ -44,3 +44,48 @@ All tasks are complete. A reply has been drafted for the user to post on GitHub.
 -   When dealing with forked projects, it's crucial to respect the original author's license. If the license changes, the fork must be updated to comply.
 -   A good attribution notice should be clear, provide credit to the author, and link to both the original work and the license. The user's final version in `index.html` is a great example of this.
 -   An archived repository is read-only and cannot be updated. Compliance efforts should focus on the active repository. Deleting an intermediate fork in a chain does not re-parent the child fork and can obscure project history.
+
+# Task 3: Cleanup Temporary Sync Branches
+
+## Background and Motivation
+
+Multiple temporary branches were created to facilitate upstream synchronization. We should remove unused ones to keep both local and remote tidy.
+
+## Proposed Cleanup (Safe)
+
+Keep until PR is merged:
+- upstream: `sync/replace-on-upstream` (PR branch)
+
+Delete now (remote upstream):
+- `sync/upstream-merge`
+- `sync/clean-no-merge`
+- `sync/snapshot-from-ut01`
+
+Delete locally (after switching off them):
+- `git branch -D sync/upstream-merge`
+- `git branch -D sync/clean-no-merge`
+- `git branch -D sync/snapshot-from-ut01`
+
+Delete on upstream (remote):
+- `git push upstream :refs/heads/sync/upstream-merge`
+- `git push upstream :refs/heads/sync/clean-no-merge`
+- `git push upstream :refs/heads/sync/snapshot-from-ut01`
+
+After PR is merged, optionally delete:
+- local: `git branch -D sync/replace-on-upstream`
+- remote: `git push upstream :refs/heads/sync/replace-on-upstream`
+
+Housekeeping:
+- `git fetch upstream --prune`
+- If desired, restore local workspace: `git checkout main && git stash pop`
+
+## Project Status Board (Task 3)
+- [x] Approve cleanup list
+- [x] Delete remote temp branches (`sync/upstream-merge`, `sync/clean-no-merge`, `sync/snapshot-from-ut01`)
+- [x] Delete local temp branches
+- [x] Post-merge: delete PR branch (`sync/replace-on-upstream`) after PR is merged
+
+## Executor's Feedback (Task 3)
+- Switched to `main` and deleted local branches: `sync/upstream-merge`, `sync/clean-no-merge`, `sync/snapshot-from-ut01`, `sync/replace-on-upstream`.
+- Deleted remote branch on `upstream`: `sync/replace-on-upstream`; pruned refs.
+- Stash pending: `stash@{0}` (message: "pre-sync workspace"). Applying it now would overwrite current `.cursor/scratchpad.md`. Please confirm whether to drop the stash or apply it while keeping current scratchpad.
