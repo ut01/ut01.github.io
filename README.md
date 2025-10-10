@@ -34,6 +34,10 @@ Aug 18: add "UT AI" section!
 ![ut01 Screenshot](./assets/Screenshot-Mobile-Device-ut01.png)
 
 ---
+## Disclaimer
+
+**Important Notice**: The information and links provided on this site are for convenience only and are not necessarily official or endorsed by The University of Texas at Austin. Even official university information may contain errors or become outdated. Users are responsible for verifying the accuracy and current status of all information before making important decisions. Always refer to official university sources for the most current and accurate information.
+
 ## Privacy & Data Collection
 
 ut01.github.io prioritizes user privacy while providing analytics insights for site improvement.
