@@ -46,6 +46,7 @@
     links:
       - { url: "https://tech.utexas.edu/initiatives/artificial-intelligence", title: "UT AI", icon: "fad fa-robot", keywords: "UT AI, artificial intelligence, 人工智能" }
       - { url: "https://spark.utexas.edu/", title: "UT Spark", icon: "fad fa-sparkles", keywords: "UT Spark, 人工智能, 人工智能研究, 人工智能应用, 人工智能技术, 人工智能发展, 人工智能未来" }
+      - { url: "https://memorybox.hawltechs.com/", title: "AI Memory Box", icon: "fad fa-brain", keywords: "AI Memory Box, AI memory, conversation storage, AI conversations, memory management, AI productivity, 人工智能记忆, 对话存储, 记忆管理" }
 
   - section: Financial
     section_zh: "财务"
