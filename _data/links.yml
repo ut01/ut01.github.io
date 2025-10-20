@@ -115,4 +115,5 @@
       - { url: "https://utexas.joinhandshake.com/", title: "Handshake", icon: "fad fa-handshake", keywords: "Handshake, jobs, internships, career fair, recruitment, employment, networking, 招聘, 工作, 实习, 职业博览会, 求职" }
       - { url: "https://utexas.12twenty.com/", title: "12twenty (Career Success)", icon: "fad fa-briefcase", keywords: "12twenty, career success, jobs, internships, employment, career management, 职业成功, 求职, 简历, 面试, 就业" }
       - { url: "https://cloud.wikis.utexas.edu/", title: "UT Wikis", icon: "fab fa-wikipedia-w", keywords: "UT Wikis, collaboration, documentation, 维基" }
+      - { url: "https://alumniguides.jsg.utexas.edu/students/", title: "JSG Alumni", icon: "fad fa-graduation-cap", keywords: "Alumni Guides, career, job, employment, 校友指南, 职业, 工作, 就业" }
 
