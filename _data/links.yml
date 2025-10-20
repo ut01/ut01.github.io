@@ -25,8 +25,7 @@
       - { url: "https://www.google.com/search?q=ut+austin+application", title: "Apply to UT", icon: "fad fa-graduation-cap", keywords: "apply, application, admission, 申请, 申请流程, 申请指南, 申请材料, 申请要求, 申请截止日期, 申请费用, 申请结果" }
       - { url: "https://utdirect.utexas.edu/apps/adm/mystatus/", title: "MyStatus", icon: "fad fa-file-check", keywords: "MyStatus, admission status, 申请状态, 录取状态, 录取结果" }
       - { url: "https://guide.utcssa.net/", title: "UTCSSA Guide", icon: "fad fa-book-sparkles", keywords: "UTCSSA Guide, Chinese Students and Scholars Association, 新生指南" }
-      - { url: "https://gradschool.utexas.edu/admissions/after-your-decision", title: "New Grad Chklst", icon: "fad fa-list-check", keywords: "new graduate student checklist, 研究生新生清单, 研究生新生指南, 研究生新生要求, 研究生新生材料, 研究生新生截止日期, 研究生新生费用, 研究生新生结果" }
-      # - { url: "https://guide.utcssa.net/course-guide/preface", title: "Course Slct", icon: "fad fa-school", keywords: "course selection guide, 选课指南, 选课流程, 选课要求, 选课材料, 选课截止日期, 选课费用, 选课结果" }
+      - { url: "https://gradschool.utexas.edu/admissions/after-your-decision", title: "New Grad Chklst", icon: "fad fa-list-check", keywords: "new graduate student checklist, 研究生新生清单, 研究生新生指南, 研究生新生要求, 研究生新生材料, 研究生新生截止日期, 研究生新生费用, 研究生新生结果" }      
       - { url: "https://registrar.utexas.edu/services", title: "Regist Service", icon: "fad fa-landmark", keywords: "registrar services, 注册服务, 注册流程, 注册要求, 注册材料, 注册截止日期, 注册费用, 注册结果" }
       - { url: "/guides/registration-guide.html", title: "Course Regist", icon: "fad fa-file-lines", keywords: "course registration guide, 选课注册指南, 选课注册流程, 选课注册要求, 选课注册材料, 选课注册截止日期, 选课注册费用, 选课注册结果, 开学注册, 选课注册, 选课提醒, 选课checklist" }
       - { url: "https://catalog.utexas.edu/general-information/registration-tuition-and-fees/tuition-and-fees/tuition-waivers/", title: "Tuition Waiver", icon: "fad fa-receipt", keywords: "tuition waiver, 学费减免, 学费豁免, 学费减免申请, 学费减免流程, 学费减免要求, 学费减免材料, 学费减免截止日期, 学费减免费用, 学费减免结果" }
@@ -69,7 +68,7 @@
       - { url: "https://parking.utexas.edu/", title: "Parking", icon: "fad fa-square-parking", keywords: "parking permits, garages, 停车" }
       - { url: "https://www.utrecsports.org/", title: "RecSports", icon: "fad fa-person-running", keywords: "recreational sports, gym, gymnasium, recreation, leisure, fitness, sports, exercise, workout, activities, rec sports, 体育馆, 休闲, 娱乐, 运动, 健身, 体育, 锻炼, 活动" }
       - { url: "https://www.utrecsports.org/facilities", title: "Gym Hours", icon: "fad fa-dumbbell", keywords: "gym hours, Gregory Gym, gymnasium hours, fitness center hours, rec center hours, 健身房时间, 体育馆时间, 健身房, 体育馆" }
-
+      - { url: "/guides/referral.html", title: "$$ Referral", icon: "fad fa-hand-holding-dollar", keywords: "$$ referral, 信用卡 referral, 信用卡推荐, 信用卡推荐服务, 信用卡推荐流程, 信用卡推荐要求, 信用卡推荐材料, 信用卡推荐截止日期, 信用卡推荐费用, 信用卡推荐结果" }
 
   - section: Legal & Other Support
     section_zh: "法律及其他支持"
