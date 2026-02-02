@@ -94,8 +94,8 @@
       - { url: "https://utexas.app.box.com/", title: "UT Box", icon: "fad fa-box", keywords: "UT Box, cloud storage, 云存储, 云存储服务, 云存储系统, 云存储平台, 云存储解决方案" }
       - { url: "https://utexas-my.sharepoint.com/", title: "Onedrive", icon: "fad fa-hard-drive", keywords: "Onedrive, cloud storage, 云盘" }
       - { url: "https://tacc.utexas.edu/", title: "TACC", icon: "fad fa-server", keywords: "Texas Advanced Computing Center, supercomputer, 高性能计算" }
-      - { url: "https://utexas.zoom.us/", title: "Zoom", icon: "fad fa-video", keywords: "Zoom, video conferencing, 视频会议" }
       - { url: "https://www.google.com/search?q=ut%20austin%20software%20downloads", title: "Softwares", icon: "fad fa-floppy-disk", keywords: "software, downloads, 软件下载" }
+      - { url: "/guides/jsg.html", title: "JSG", icon: "fad fa-building", keywords: "JSG, Jackson School of Geosciences, maintenance, poster print, plotter, 杰克逊地质学院, 维修, 海报打印" }
 
   - section: International Student Services (ISSS)
     section_zh: "国际学生服务 (ISSS)"
