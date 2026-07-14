@@ -96,6 +96,28 @@
   vertical-align: middle;
 }
 
+/* Find-in-page group: input + button on the same line, like a Google search box */
+.u_find-form {
+  display: flex;
+  align-items: stretch;
+}
+.u_find-input {
+  float: none;
+  top: 0;
+  width: 280px;
+}
+.u_find-btn {
+  float: none;
+  top: 0;
+  width: 70px;
+  font-weight: bold;
+  border-left: 0;
+  background-color: #f8f9fa;
+  &:hover {
+    background-color: #eceff1;
+  }
+}
+
 /* 移动端搜索框组 */
 .um_nav-input-group {
   display: none;

@@ -109,16 +109,11 @@ layout: none
                     <div class="um_nav-btn" onclick="search('bing', 'mobile')">Bing</div>
                     <div class="um_nav-btn" onclick="search('wolframalpha_mob', 'mobile')">Wolfram</div>
                 </div>
-                <div class="u_nav-input-group" style="position: absolute; left: 41%; transform: translateX(-50%); top: 10px; margin-left: 150px; z-index: 1;">
-                    <form id="find-form-pc">
-                        <input class="u_nav-input" id="find-in-page-input" placeholder="use whole word to find in this page..." style="width: 280px;">
-                        <input type="submit" hidden>
+                <div class="u_nav-input-group u_find-group" style="position: absolute; left: 41%; transform: translateX(-50%); top: 10px; margin-left: 150px; z-index: 1;">
+                    <form id="find-form-pc" class="u_find-form">
+                        <input class="u_nav-input u_find-input" id="find-in-page-input" placeholder="use whole word to find in this page...">
+                        <button type="submit" class="u_nav-btn u_find-btn">Find</button>
                     </form>
-                    <ul>
-                        <!-- <li class="u_nav-btn">
-                            <span style="font-weight: bold;">Find</span>
-                        </li> -->
-                    </ul>
                     <div id="no-results-message" class="no-results-nav" style="display: none;">
                         No results found. Try a different search term.
                     </div>
@@ -127,6 +122,7 @@ layout: none
                     <div class="u_nav-input-group" style="float: left; margin-right: 20px;">
                         <a href="https://github.com/ut01/ut01.github.io/fork" class="u_nav-link">Fork ut01</a>
                     </div>
+                    <a href="https://github.com/ut01/ut01.github.io/issues/new" class="u_nav-link" target="_blank" rel="noopener noreferrer">Issues</a>
                     <a href="#" class="u_nav-link" onclick="setHome(this, window.location)">Set as Homepage</a>
                 </div>
             </div>
@@ -200,6 +196,7 @@ layout: none
         var search=function(site,env){var searchId=env==='pc'?'search-pc':'search-mobile';var baseURL={google:'https://www.google.com/search?q=',baidu:'https://www.baidu.com/s?wd=',bing:'https://www.bing.com/search?q=',wolframalpha:'https://www.wolframalpha.com/input/?i=',wolframalpha_mob:'https://m.wolframalpha.com/input/?i='};window.open(baseURL[site]+encodeURIComponent(document.getElementById(searchId).value))};
         document.getElementById("search-form-pc").onsubmit=function(e){e.preventDefault();search('google','pc')};
         document.getElementById("search-form-mobile").onsubmit=function(e){e.preventDefault();search('bing','mobile')};
+        document.getElementById("find-form-pc").onsubmit=function(e){e.preventDefault();};
         document.addEventListener('DOMContentLoaded',function(){const searchInput=document.getElementById('find-in-page-input');const noResultsMessage=document.getElementById('no-results-message');if(!searchInput)return;const mainBlocks=document.querySelectorAll('.main-block');searchInput.addEventListener('input',function(){const searchTerm=this.value.toLowerCase().trim();let totalVisibleItems=0;mainBlocks.forEach(function(block){const items=block.querySelectorAll('.searchable-item');let hasVisibleItems=false;items.forEach(function(item){const keywords=item.getAttribute('data-keywords');if(searchTerm===''||keywords.includes(searchTerm)){item.style.display='block';hasVisibleItems=true;totalVisibleItems++}else{item.style.display='none'}});if(hasVisibleItems||searchTerm===''){block.style.display='block'}else{block.style.display='none'}});if(searchTerm!==''&&totalVisibleItems===0){noResultsMessage.style.display='block'}else{noResultsMessage.style.display='none'}})});
     </script>
 </html>
