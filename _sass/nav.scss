@@ -257,4 +257,15 @@ dialog#contact-dialog::backdrop {
     font-weight: bold;
     background-color: #f8f9fa;
   }
+  .um_nav-links {
+    clear: both;
+    padding: 10px 15px 4px;
+    font-size: 13px;
+    > a,
+    > button {
+      color: #777;
+      margin-right: 18px;
+      white-space: nowrap;
+    }
+  }
 }
