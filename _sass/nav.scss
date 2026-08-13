@@ -149,6 +149,9 @@
   display: none;
 }
 @media (max-width: 1000px) {
+  .u_nav-wrapper {
+    position: static;
+  }
   .u_nav-right,
   .u_nav-input-group {
     display: none;
