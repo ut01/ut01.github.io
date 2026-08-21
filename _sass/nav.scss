@@ -39,6 +39,59 @@
     vertical-align: middle;
   }
 }
+.u_nav-contact-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: #777;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font: inherit;
+  > svg {
+    vertical-align: middle;
+  }
+}
+.u_nav-contact-card {
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 1px #ccc solid;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: normal;
+  color: #333;
+  white-space: nowrap;
+  z-index: 20;
+  &.is-open {
+    display: block;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-bottom-color: #ccc;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(1px);
+    border: 5px solid transparent;
+    border-bottom-color: white;
+  }
+}
 .u_nav-contact-svg {
   width: 18px;
   height: 18px;
@@ -55,6 +108,7 @@
 }
 .u_nav-right {
   > .u_nav-contact-icon,
+  > .u_nav-contact-btn,
   > .u_nav-link-icon {
     margin-right: 18px;
   }
@@ -221,9 +275,21 @@
     flex-wrap: wrap;
     gap: 18px;
     .u_nav-link-icon,
-    .u_nav-contact-icon {
+    .u_nav-contact-icon,
+    .u_nav-contact-btn {
       color: #777;
       white-space: nowrap;
+    }
+    .u_nav-contact-card {
+      left: auto;
+      right: -10px;
+      transform: none;
+      &::before,
+      &::after {
+        left: auto;
+        right: 14px;
+        transform: none;
+      }
     }
   }
 }
