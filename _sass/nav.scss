@@ -138,7 +138,6 @@
   border-radius: 3px 0 0 3px;
 }
 
-/* PC 端搜索框组 */
 .u_nav-btn {
   font-size: 14px;
   display: block;
@@ -148,41 +147,6 @@
   line-height: 24px;
   vertical-align: middle;
   border-radius: 0 3px 3px 0;
-
-  > ul {
-    border: 0;
-    > li {
-      display: none;
-    }
-  }
-
-  &:hover {
-    border-bottom: 0;
-    > ul {
-      border: 1px lightgray solid;
-      border-top: 0;
-      border-radius: 0 0 3px 3px;
-      > li {
-        display: block;
-      }
-    }
-  }
-}
-.u_nav-ul {
-  position: relative;
-  top: 7px;
-  left: -6px;
-  width: 80px;
-  display: block;
-  background-color: white;
-  z-index: 5;
-}
-.u_nav-li {
-  font-size: 14px;
-  display: block;
-  height: 35px;
-  line-height: 30px;
-  vertical-align: middle;
 }
 
 /* Find-in-page group: input + button on the same line, like a Google search box */

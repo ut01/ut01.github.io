@@ -84,30 +84,7 @@ layout: none
                 <div class="u_nav-left">
                 <h1 class="u_nav-title">UT01 Student Nav</h1>
                 </div>
-                <div class="u_nav-input-group">
-                    <form id="search-form-pc">
-                        <input class="u_nav-input" id="search-pc" placeholder="Search...">
-                        <input type="submit" hidden>
-                    </form>
-                    <ul>
-                        <li class="u_nav-btn">
-                            <span onclick="search('google', 'pc')">Google</span>
-                            <ul class="u_nav-ul">
-                                <li><span class="u_nav-li" onclick="search('bing', 'pc')">Bing</span></li>
-                                <li><span class="u_nav-li" onclick="search('wolframalpha', 'pc')">Wolfram</span></li>
-                                </ul>
-                        </li>
-                    </ul>
-                </div>
                 <div class="um_nav-input-group">
-                    <div class="clearfix"></div>
-                    <form id="search-form-mobile">
-                        <input class="um_nav-input" id="search-mobile" placeholder="Search...">
-                        <input type="submit" hidden>
-                    </form>
-                    <div class="um_nav-btn" onclick="search('google', 'mobile')">Google</div>
-                    <div class="um_nav-btn" onclick="search('bing', 'mobile')">Bing</div>
-                    <div class="um_nav-btn" onclick="search('wolframalpha_mob', 'mobile')">Wolfram</div>
                     <div class="clearfix"></div>
                     <form id="find-form-mobile" class="um_find-form">
                         <input class="um_nav-input um_find-input" id="find-in-page-input-mobile" placeholder="Find in page...">
@@ -222,9 +199,6 @@ layout: none
     </body>
     <script>
         var setHome=function(obj,url){try{obj.style.behavior='url(#default#homepage)';obj.setHomePage(url)}catch(e){if(window.netscape){try{netscape.security.PrivilegeManager.enablePrivilege('UniversalXPConnect')}catch(e){alert('Sorry, this action is blocked by your browser!\n\nSolution 1:\nType "about:config" in your address bar and press Enter.\nThen set [signed.applets.codebase_principal_support] to true.\n\nSolution 2:\nManually set '+url+' as your homepage.')}var prefs=Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);prefs.setCharPref('browser.startup.homepage',url)}else{alert('Sorry, your browser does not support this action.\n\nPlease manually set '+url+' as your homepage.')}}};
-        var search=function(site,env){var searchId=env==='pc'?'search-pc':'search-mobile';var baseURL={google:'https://www.google.com/search?q=',baidu:'https://www.baidu.com/s?wd=',bing:'https://www.bing.com/search?q=',wolframalpha:'https://www.wolframalpha.com/input/?i=',wolframalpha_mob:'https://m.wolframalpha.com/input/?i='};window.open(baseURL[site]+encodeURIComponent(document.getElementById(searchId).value))};
-        document.getElementById("search-form-pc").onsubmit=function(e){e.preventDefault();search('google','pc')};
-        document.getElementById("search-form-mobile").onsubmit=function(e){e.preventDefault();search('bing','mobile')};
         document.getElementById("find-form-pc").onsubmit=function(e){e.preventDefault();};
         document.getElementById("find-form-mobile").onsubmit=function(e){e.preventDefault();};
         var setupFind=function(inputId,msgId){var searchInput=document.getElementById(inputId);if(!searchInput)return;var noResultsMessage=document.getElementById(msgId);var mainBlocks=document.querySelectorAll('.main-block');var apply=function(){var searchTerm=searchInput.value.toLowerCase().trim();var totalVisibleItems=0;mainBlocks.forEach(function(block){var items=block.querySelectorAll('.searchable-item');var hasVisibleItems=false;items.forEach(function(item){var keywords=item.getAttribute('data-keywords');if(searchTerm===''||keywords.indexOf(searchTerm)!==-1){item.style.display='block';hasVisibleItems=true;totalVisibleItems++}else{item.style.display='none'}});if(hasVisibleItems||searchTerm===''){block.style.display='block'}else{block.style.display='none'}});if(searchTerm!==''&&totalVisibleItems===0){noResultsMessage.style.display='block'}else{noResultsMessage.style.display='none'}};searchInput.addEventListener('input',apply);};
