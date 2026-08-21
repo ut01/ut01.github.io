@@ -97,6 +97,7 @@
       - { url: "https://tacc.utexas.edu/", title: "TACC", icon: "fad fa-server", keywords: "Texas Advanced Computing Center, supercomputer, 高性能计算" }
       - { url: "https://www.google.com/search?q=ut%20austin%20software%20downloads", title: "Softwares", icon: "fad fa-floppy-disk", keywords: "software, downloads, 软件下载" }
       - { url: "/guides/jsg.html", title: "JSG", icon: "fad fa-building", keywords: "JSG, Jackson School of Geosciences, maintenance, poster print, plotter, 杰克逊地质学院, 维修, 海报打印" }
+      - { url: "/guides/ai-tools-guide.html", title: "Free GPT+Claude", icon: "fad fa-robot", keywords: "free GPT, free Claude, Codex, Claude Code, EID login, UT AI tools, 免费GPT, 免费Claude, 人工智能工具, EID登陆" }
 
   - section: International Student Services (ISSS)
     section_zh: "国际学生服务 (ISSS)"
