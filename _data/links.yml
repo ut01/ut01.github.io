@@ -106,8 +106,7 @@
       - { url: "https://global.utexas.edu/isss/advising-services/myio", title: "myIO", icon: "fad fa-globe", keywords: "myIO, international office, 国际学生办公室, 国际学生办公室服务, 国际学生办公室流程, 国际学生办公室要求, 国际学生办公室材料, 国际学生办公室截止日期, 国际学生办公室费用, 国际学生办公室结果" }
       - { url: "https://global.utexas.edu/isss/about/contact", title: "ISSS Advising", icon: "fad fa-comments-question", keywords: "ISSS advising, immigration advising, 国际学生咨询, 国际学生咨询服务, 国际学生咨询流程, 国际学生咨询要求, 国际学生咨询材料, 国际学生咨询截止日期, 国际学生咨询费用, 国际学生咨询结果" }
       - { url: "https://global.utexas.edu/isss/immigration", title: "Visa & Immigration", icon: "fad fa-file-contract", keywords: "visa, immigration, CPT, OPT, 签证, 移民" }
-      - { url: "https://global.utexas.edu/isss/insurance", title: "Insurance Info", icon: "fad fa-file-medical", keywords: "health insurance, 保险, 医疗保险, 保险服务, 保险系统, 保险平台, 保险解决方案" }
-      - { url: "/guides/insurance-guide.html", title: "Insurance Guide", icon: "fad fa-file-medical", keywords: "insurance guide, 保险查询指南, 保险豁免, 保险状态查询, SHIP, 学生医疗保险, 保险bar, 豁免申请, 保险截止日期" }
+      - { url: "/guides/insurance-guide.html", title: "Insurance Guide", icon: "fad fa-file-medical", keywords: "insurance guide, health insurance, 保险查询指南, 保险豁免, 保险状态查询, SHIP, 学生医疗保险, 保险bar, 豁免申请, 保险截止日期, 保险, 医疗保险, 保险服务, 保险系统, 保险平台, 保险解决方案" }
       - { url: "/guides/ita-guide.html", title: "ITA Test", icon: "fad fa-microphone", keywords: "ITA test, international teaching assistant oral english test, 英语口语测试, 教学助理测试" }
 
   - section: Employment
