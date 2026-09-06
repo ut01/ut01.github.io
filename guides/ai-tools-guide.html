@@ -3,9 +3,9 @@ layout: none
 ---
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>UT Free GPT + Claude Guide - 免费AI工具指南</title>
+        <title>UT AI Tools Guide - AI工具与学生福利指南</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../style.css" rel="stylesheet">
@@ -14,6 +14,28 @@ layout: none
                 max-width: 800px;
                 margin: 40px auto;
                 padding: 20px;
+                overflow-wrap: anywhere;
+                line-height: 1.6;
+            }
+            .ai-guide ol {
+                list-style: decimal outside;
+                padding-left: 1.5em;
+                margin: 16px 0;
+            }
+            .ai-guide ol li {
+                list-style: decimal outside;
+                margin-bottom: 12px;
+                padding-left: 4px;
+            }
+            @media (max-width: 480px) {
+                .ai-guide {
+                    margin: 16px auto;
+                    padding: 12px;
+                }
+                .ai-guide .step,
+                .ai-guide .checklist-detail {
+                    padding: 12px;
+                }
             }
             .step {
                 margin: 20px 0;
@@ -73,24 +95,26 @@ layout: none
     </head>
     <body>
         <div class="ai-guide">
-            <h1>UT Free GPT + Claude Guide 免费AI工具指南</h1>
+            <h1>UT AI Tools Guide - AI工具与学生福利指南</h1>
 
             <div class="warning">
-                <strong>Disclaimer (as of 202608):</strong> This is not an official UT document. Always verify with <a href="https://aiservices.austin.utexas.edu/submit/" target="_blank" rel="noopener noreferrer">UT AI Services</a> for the latest access and eligibility info.
+                <strong>Disclaimer (as of 202609):</strong> This is not an official UT document. Verify current access and eligibility with <a href="https://tech.utexas.edu/services-tools/ai" target="_blank" rel="noopener noreferrer">UT AI Tools</a>, <a href="https://kiro.dev/students/" target="_blank" rel="noopener noreferrer">Kiro Students</a>, and <a href="https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student" target="_blank" rel="noopener noreferrer">GitHub Education</a>.
+                <p>免责声明：本指南并非 UT 官方文件。使用资格、额度与申请要求请以以上官方页面为准。</p>
             </div>
 
             <div class="step">
-                <h2>UT给提供了免费的 GPT + Claude</h2>
+                <h2>UT ChatGPT + Claude（UT 提供的免费 AI 工具）</h2>
                 <div class="checklist-detail">
-                    <p>用你的 EID 邮箱（比如说 <code>xxxxx@eid.utexas.edu</code>）登陆就可以使用。</p>
-                    <p>UT students, faculty, and staff get free access to enterprise ChatGPT and Claude through their EID email — just log in with your <code>@eid.utexas.edu</code> address.</p>
+                    <p>UT lists free ChatGPT EDU and Claude EDU access for students, faculty, and staff. Follow the login links on <a href="https://tech.utexas.edu/services-tools/ai" target="_blank" rel="noopener noreferrer">UT AI Tools</a> and sign in with <code>[your EID]@eid.utexas.edu</code>. That page also links to AI Studio for access requests and plan details.</p>
+                    <p>UT 为学生、教职员工提供免费的 ChatGPT EDU 和 Claude EDU。请从 UT AI Tools 官方页面进入，使用 <code>[你的 EID]@eid.utexas.edu</code> 登录；申请入口及套餐详情见该页面的 AI Studio 链接。</p>
                 </div>
             </div>
 
             <div class="step">
-                <h2>UT的GPT可以使用Codex</h2>
+                <h2>Codex Access（Codex 使用权限）</h2>
                 <div class="checklist-detail">
-                    <p>UT-provided GPT includes access to Codex.</p>
+                    <p>The community screenshot below shows Codex access on a UT account. Check your assigned plan and workspace settings in AI Studio before relying on this feature.</p>
+                    <p>下方社区截图展示了 UT 账户中的 Codex。使用前请通过 AI Studio 核实自己获分配的套餐与工作区权限。</p>
                     <div style="text-align: center; margin: 20px 0;">
                         <img src="../assets/ai-gpt-codex.png" alt="UT GPT with Codex access screenshot" style="max-width: 100%; height: auto; border: 1px solid #e0e0e0; border-radius: 4px;">
                         <p style="font-size: 0.85em; color: #666; margin-top: 8px;">UT GPT — Codex access</p>
@@ -99,9 +123,10 @@ layout: none
             </div>
 
             <div class="step">
-                <h2>UT的Claude可以使用Claude Code</h2>
+                <h2>Claude Code Access（Claude Code 使用权限）</h2>
                 <div class="checklist-detail">
-                    <p>UT-provided Claude includes access to Claude Code.</p>
+                    <p>The community screenshots below show Claude login and Claude Code access. Availability depends on your assigned license; consult the Claude license information linked from UT AI Tools.</p>
+                    <p>下方社区截图展示了 Claude 登录及 Claude Code。可用功能取决于获分配的许可，请查看 UT AI Tools 页面链接的 Claude 许可说明。</p>
                     <div style="text-align: center; margin: 20px 0;">
                         <img src="../assets/ai-claude-login.png" alt="UT Claude login screenshot" style="max-width: 100%; height: auto; border: 1px solid #e0e0e0; border-radius: 4px;">
                         <p style="font-size: 0.85em; color: #666; margin-top: 8px;">UT Claude — login with EID email</p>
@@ -114,25 +139,52 @@ layout: none
             </div>
 
             <div class="step">
-                <h2>Useful Links & Resources</h2>
+                <h2>Kiro Students（Kiro 学生福利）</h2>
+                <div class="checklist-detail">
+                    <p>UT Austin is on Kiro's eligible-school list. Verified students aged 18 or older can receive 1,000 credits each month for one year, without a credit card.</p>
+                    <p>UT Austin 在 Kiro 支持的学校名单内。年满 18 岁并通过认证的学生可获一年内每月 1,000 额度，无需信用卡。</p>
+                    <ol>
+                        <li>Open <a href="https://kiro.dev/students/" target="_blank" rel="noopener noreferrer">Kiro Students</a> and sign up or log in with Google, GitHub, or AWS Builder ID. Associate your university email with that account.<br>打开官方学生页面，使用 Google、GitHub 或 AWS Builder ID 注册或登录，并关联学校邮箱。</li>
+                        <li>On the account usage page, choose verification in the student eligibility banner and complete SheerID verification. Enrollment documents may be requested.<br>在账户用量页面的学生资格提示中开始 SheerID 认证，按要求提交在读材料。</li>
+                        <li>Check your account for activation. Unused monthly credits expire; after the year, the account returns to the free tier.<br>在账户内确认福利生效。每月未用额度不结转，一年结束后账户转回免费套餐。</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="step">
+                <h2>GitHub Education（GitHub 学生福利）</h2>
+                <div class="checklist-detail">
+                    <p>Applicants need a personal GitHub account, current enrollment in a degree- or diploma-granting program, proof of student status, and must be at least 13.</p>
+                    <p>申请人须年满 13 岁、拥有个人 GitHub 账户，正在攻读学位或文凭，并提供在读证明。</p>
+                    <ol>
+                        <li>Add and verify your academic email when required by the application. Prepare a dated student ID, class schedule, transcript, or enrollment letter.<br>根据申请要求添加并验证学校邮箱，准备带在读日期的学生证、课表、成绩单或在读证明。</li>
+                        <li>Open <a href="https://github.com/settings/education/benefits" target="_blank" rel="noopener noreferrer">Education benefits</a>, select “Start an application,” complete the form, and submit.<br>打开教育福利设置，选择“Start an application”，填写并提交申请。</li>
+                        <li>Check your application status there. After approval, follow the Education portal's instructions to activate the available benefits and partner offers.<br>在该页面查看申请状态。获批后按照教育门户指引启用可用福利与合作伙伴优惠。</li>
+                    </ol>
+                    <p>Need an enrollment letter? See <a href="https://onestop.utexas.edu/student-records/transcripts-other-records/enrollment-certifications/" target="_blank" rel="noopener noreferrer">Texas One Stop: Verify Enrollment</a>.<br>需要在读证明？请查看 Texas One Stop 的在读证明申请页面。</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <h2>Useful Links &amp; Resources（实用链接与资源）</h2>
                 <div class="checklist-detail">
                     <div class="info-box">
-                        <h4>Official UT AI Pages</h4>
+                        <h4>Official UT AI Pages（UT 官方 AI 页面）</h4>
                         <ul>
-                            <li><a href="https://tech.utexas.edu/initiatives/artificial-intelligence" target="_blank" rel="noopener noreferrer">UT AI Initiative</a> — Overview of UT's AI initiatives</li>
-                            <li><a href="https://aiservices.austin.utexas.edu/submit/" target="_blank" rel="noopener noreferrer">AI Services</a> — Submit requests, access info</li>
+                            <li><a href="https://tech.utexas.edu/initiatives/artificial-intelligence" target="_blank" rel="noopener noreferrer">UT AI Initiative</a> — UT AI overview（UT AI 项目概览）</li>
+                            <li><a href="https://tech.utexas.edu/services-tools/ai" target="_blank" rel="noopener noreferrer">UT AI Tools</a> — Access, plans, and support（使用入口、套餐与支持）</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
             <div class="source-attribution">
-                <p><strong>内容来源:</strong> UT AI Services, 用户分享 | <strong>更新时间:</strong> 2026年8月<br>(<strong>Sources:</strong> UT AI Services, community shared info | <strong>Last Updated:</strong> August 2026)</p>
-                <p>官方最新信息请以 <a href="https://aiservices.austin.utexas.edu/submit/" target="_blank" rel="noopener noreferrer">UT AI Services</a> 为准<br>(For official latest info, refer to UT AI Services)</p>
+                <p><strong>内容来源:</strong> UT AI Tools、Kiro Students、GitHub Education 官方文档及社区截图 | <strong>更新时间:</strong> 2026年9月<br><strong>Sources:</strong> UT AI Tools, Kiro Students, GitHub Education documentation, and community screenshots | <strong>Last Updated:</strong> September 2026</p>
+                <p><a href="https://tech.utexas.edu/services-tools/ai" target="_blank" rel="noopener noreferrer">UT AI Tools</a> · <a href="https://kiro.dev/students/" target="_blank" rel="noopener noreferrer">Kiro Students</a> · <a href="https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student" target="_blank" rel="noopener noreferrer">GitHub Education: application requirements（申请要求）</a></p>
             </div>
 
             <p style="margin-top: 20px;">
-                <a href="/">&larr; Back to Navigation</a>
+                <a href="/">&larr; Back to Navigation（返回导航）</a>
             </p>
         </div>
     </body>
