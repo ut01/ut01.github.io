@@ -2,7 +2,7 @@
 
 [![English](https://img.shields.io/badge/lang-English-blue.svg)](README.md)
 [![中文](https://img.shields.io/badge/lang-中文-brown.svg)](README.CN.md)
-[![Website](https://img.shields.io/website?url=https%3A//ut01.github.io)](https://ut01.github.io/) [![GitHub stars](https://img.shields.io/github/stars/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io) [![GitHub forks](https://img.shields.io/github/forks/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io/fork) [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Discuss on Reddit](https://img.shields.io/badge/Discuss_on-Reddit-orange?logo=reddit)](https://www.reddit.com/r/UTAustin/comments/1loxvxu/new_to_ut_austin_tired_of_clicking_through_5/)
+[![Website](https://img.shields.io/website?url=https%3A//ut01.github.io)](https://ut01.github.io/) [![GitHub stars](https://img.shields.io/github/stars/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io) [![GitHub forks](https://img.shields.io/github/forks/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io/fork) [![CC BY-SA 4.0 License](https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg)](LICENSE) [![Discuss on Reddit](https://img.shields.io/badge/Discuss_on-Reddit-orange?logo=reddit)](https://www.reddit.com/r/UTAustin/comments/1loxvxu/new_to_ut_austin_tired_of_clicking_through_5/)
 
 > **UT Austin学生的一站式导航** 🤘  
 > 快速访问重要的大学链接，无需深度导航
@@ -91,19 +91,13 @@ ut01.github.io prioritizes user privacy while providing analytics insights for s
 
 ## 参与贡献
 
-想要添加链接或修复问题？欢迎贡献！
+想要添加链接或修复问题？请阅读[中英双语贡献指南](CONTRIBUTING.md)，了解本地预览、检查方法和 PR 审核要求。
 
-### 快速步骤
-1. **Fork** 此仓库
-2. **编辑** `index.html` 按照模板：
-   ```html
-   <!-- 添加新链接 -->
-   {% include block-grid.html url="https://example.utexas.edu" title="服务名称" icon="fad fa-icon-name" %}
-   ```
-3. **提交** pull request
+1. Fork 此仓库并创建分支。
+2. 在 `_data/links.yml` 的对应分类中添加或修改链接。标题保持简短，搜索关键词包含中英文；图标可沿用网站中已正常显示的图标。
+3. 预览网站，检查目标页面以及中英文搜索，再提交 PR，附上相关 issue 和检查结果。
 
-### 查找图标
-在 [FontAwesome](https://fontawesome.com/search) 搜索图标并更新 `icon` 属性。
+适合初次贡献的任务包括修复一个失效链接、补充一个中文搜索词，或根据官方来源核对一篇指南。若想长期维护某个分类或帮助审核更新，请在[协作者招募 issue（#26）](https://github.com/ut01/ut01.github.io/issues/26) 中说明你的兴趣和可投入的时间。通过 Fork 提交贡献无需仓库写入权限。
 
 ---
 
@@ -111,7 +105,7 @@ ut01.github.io prioritizes user privacy while providing analytics insights for s
 
 - **框架**: Jekyll 配自定义模板
 - **托管**: GitHub Pages
-- **许可证**: MIT (修改自 [SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife))
+- **许可证**: [CC BY-SA 4.0](LICENSE)（修改自 [SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife)）
 - **维护**: 学生驱动的更新
 
 ---

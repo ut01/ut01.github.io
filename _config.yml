@@ -24,4 +24,13 @@ exclude:
   - LICENSE
   - .gitignore
   - Gemfile
-  - Gemfile.lock 
+  - Gemfile.lock
+  - CLAUDE.md
+  - CONTRIBUTING.md
+  - package.json
+  - package-lock.json
+  - node_modules
+  - playwright.config.cjs
+  - tests
+  - test-results
+  - playwright-report
