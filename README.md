@@ -2,7 +2,7 @@
 
 [![English](https://img.shields.io/badge/lang-English-blue.svg)](README.md)
 [![中文](https://img.shields.io/badge/lang-中文-brown.svg)](README.CN.md)
-[![Website](https://img.shields.io/website?url=https%3A//ut01.github.io)](https://ut01.github.io/) [![GitHub stars](https://img.shields.io/github/stars/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io) [![GitHub forks](https://img.shields.io/github/forks/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io/fork) [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Discuss on Reddit](https://img.shields.io/badge/Discuss_on-Reddit-orange?logo=reddit)](https://www.reddit.com/r/UTAustin/comments/1loxvxu/new_to_ut_austin_tired_of_clicking_through_5/)
+[![Website](https://img.shields.io/website?url=https%3A//ut01.github.io)](https://ut01.github.io/) [![GitHub stars](https://img.shields.io/github/stars/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io) [![GitHub forks](https://img.shields.io/github/forks/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io/fork) [![CC BY-SA 4.0 License](https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg)](LICENSE) [![Discuss on Reddit](https://img.shields.io/badge/Discuss_on-Reddit-orange?logo=reddit)](https://www.reddit.com/r/UTAustin/comments/1loxvxu/new_to_ut_austin_tired_of_clicking_through_5/)
 
 Site Traffic Analytics: [![Visitor Count](https://clustrmaps.com/map_v2.png?d=fQvKmZbPMctrjCs0jp8rDLqKYPwmQtmFVMiOSl9YUsE&cl=ffffff&w=a&t=tt&co=ffffff&ct=000000)](https://clustrmaps.com/site/1c6il)
 
@@ -105,19 +105,13 @@ So I built this centralized hub that organizes everything students actually need
 
 ## Contributing
 
-Want to add a link or fix something? Contributions are welcome!
+Want to add a link or fix something? Read the [bilingual contribution guide](CONTRIBUTING.md) for setup, validation, and review expectations.
 
-### Quick Steps
-1. **Fork** this repository
-2. **Edit** `index.html` following the template:
-   ```html
-   <!-- Add new link -->
-   {% include block-grid.html url="https://example.utexas.edu" title="Service Name" icon="fad fa-icon-name" %}
-   ```
-3. **Submit** a pull request
+1. Fork this repository and create a branch.
+2. Add or update a link in the appropriate section of `_data/links.yml`. Use a short title and English/Chinese search keywords; copy an existing icon that renders on the site.
+3. Preview the site, check the destination and both search languages, then submit a pull request with the related issue and your checks.
 
-### Finding Icons
-Search for icons at [FontAwesome](https://fontawesome.com/search) and update the `icon` attribute.
+Good first contributions include correcting one broken resource URL, adding a missing Chinese search synonym, or checking a guide against its official sources. To help maintain a category or review updates regularly, introduce your interests and availability in [the collaborator issue (#26)](https://github.com/ut01/ut01.github.io/issues/26). You can contribute through a fork without repository write access.
 
 ---
 

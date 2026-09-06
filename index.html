@@ -3,7 +3,7 @@ layout: none
 ---
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-G6QZDW7ZJ3"></script>
@@ -87,7 +87,7 @@ layout: none
                 <div class="um_nav-input-group">
                     <div class="clearfix"></div>
                     <form id="find-form-mobile" class="um_find-form">
-                        <input class="um_nav-input um_find-input" id="find-in-page-input-mobile" placeholder="Find in page...">
+                        <input type="search" class="um_nav-input um_find-input" id="find-in-page-input-mobile" aria-label="Find student resources / 搜索学生资源" placeholder="Find in page...">
                         <button type="submit" class="um_nav-btn um_find-btn">Find</button>
                     </form>
                     <div id="no-results-message-mobile" class="no-results-nav" style="display: none;">
@@ -110,13 +110,13 @@ layout: none
                             </span>
                         </span>
                         <span class="u_nav-group">
-                            <a href="#" class="u_nav-link u_nav-link-icon" onclick="setHome(this, window.location)"><svg class="u_nav-contact-svg" viewBox="0 0 24 24"><path d="M11.47 3.837a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 0 1-1.06 1.06l-.69-.691V20.25a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75V15h-3v5.25a.75.75 0 0 1-.75.75H5a.75.75 0 0 1-.75-.75V12.897l-.69.69a.75.75 0 0 1-1.06-1.06l8.97-8.69zM5.75 11.747V20.25H9.5V14.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6h3.75v-8.503L12 4.91l-6.25 6.503z"/></svg><span>Set as Homepage</span></a>
+                            <button type="button" class="u_nav-link u_nav-link-icon u_nav-home-btn" data-homepage-toggle aria-haspopup="dialog" aria-controls="homepage-dialog"><svg class="u_nav-contact-svg" viewBox="0 0 24 24"><path d="M11.47 3.837a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 0 1-1.06 1.06l-.69-.691V20.25a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75V15h-3v5.25a.75.75 0 0 1-.75.75H5a.75.75 0 0 1-.75-.75V12.897l-.69.69a.75.75 0 0 1-1.06-1.06l8.97-8.69zM5.75 11.747V20.25H9.5V14.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6h3.75v-8.503L12 4.91l-6.25 6.503z"/></svg><span>Set as Homepage</span></button>
                         </span>
                     </div>
                 </div>
-                <div class="u_nav-input-group u_find-group" style="position: absolute; left: 41%; transform: translateX(-50%); top: 10px; margin-left: 150px; z-index: 1;">
+                <div class="u_nav-input-group u_find-group">
                     <form id="find-form-pc" class="u_find-form">
-                        <input class="u_nav-input u_find-input" id="find-in-page-input" placeholder="use whole word to find in this page...">
+                        <input type="search" class="u_nav-input u_find-input" id="find-in-page-input" aria-label="Find student resources / 搜索学生资源" placeholder="Find resources / 搜索资源...">
                         <button type="submit" class="u_nav-btn u_find-btn">Find</button>
                     </form>
                     <div id="no-results-message" class="no-results-nav" style="display: none;">
@@ -140,7 +140,7 @@ layout: none
                         </span>
                     </span>
                     <span class="u_nav-group">
-                        <a href="#" class="u_nav-link u_nav-link-icon" onclick="setHome(this, window.location)"><svg class="u_nav-contact-svg" viewBox="0 0 24 24"><path d="M11.47 3.837a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 0 1-1.06 1.06l-.69-.691V20.25a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75V15h-3v5.25a.75.75 0 0 1-.75.75H5a.75.75 0 0 1-.75-.75V12.897l-.69.69a.75.75 0 0 1-1.06-1.06l8.97-8.69zM5.75 11.747V20.25H9.5V14.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6h3.75v-8.503L12 4.91l-6.25 6.503z"/></svg><span>Set as Homepage</span></a>
+                        <button type="button" class="u_nav-link u_nav-link-icon u_nav-home-btn" data-homepage-toggle aria-haspopup="dialog" aria-controls="homepage-dialog"><svg class="u_nav-contact-svg" viewBox="0 0 24 24"><path d="M11.47 3.837a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 0 1-1.06 1.06l-.69-.691V20.25a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75V15h-3v5.25a.75.75 0 0 1-.75.75H5a.75.75 0 0 1-.75-.75V12.897l-.69.69a.75.75 0 0 1-1.06-1.06l8.97-8.69zM5.75 11.747V20.25H9.5V14.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6h3.75v-8.503L12 4.91l-6.25 6.503z"/></svg><span>Set as Homepage</span></button>
                     </span>
                 </div>
             </div>
@@ -205,16 +205,22 @@ layout: none
                 This is a fork of <a href="https://ustc.life/">USTC Navigation</a> provided by <a href="https://0x01.me/">Hypercube</a> and <a href="https://github.com/SmartHypercube/ustclife/graphs/contributors">contributors</a>, source code is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
                 </div>
         </div>
-        <!-- https://clustrmaps.com/profile/1c6il/widget/customize -->
-        <!-- <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=a5a0a0&w=a&t=tt&d=fQvKmZbPMctrjCs0jp8rDLqKYPwmQtmFVMiOSl9YUsE&co=f1f1f1&cmo=bc3a3a&cmn=1fd31f&ct=808080'></script> -->
-        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/counter_v2.js?cl=ffffff&w=a&t=n&d=YOUR_ID'></script>
+        <dialog id="homepage-dialog" class="homepage-dialog" aria-labelledby="homepage-title">
+            <h2 id="homepage-title" tabindex="-1" autofocus>Set as Homepage / 设为主页</h2>
+            <p>Copy this address into your browser's homepage settings.<br>将此地址复制到浏览器的主页设置中。</p>
+            <label for="homepage-address">Website address / 网站地址</label>
+            <input id="homepage-address" value="https://ut01.github.io/" readonly>
+            <ul>
+                <li><a href="https://support.google.com/chrome/answer/95314?hl=en" target="_blank" rel="noopener noreferrer">Chrome (desktop / 电脑)</a>: Settings → Appearance → Show home button → enter this address. To open it at launch, use Settings → On startup.</li>
+                <li><a href="https://support.microsoft.com/en-us/microsoft-edge/change-your-browser-home-page-a531e1b8-ed54-d057-0262-cc5983a065c6" target="_blank" rel="noopener noreferrer">Edge (desktop / 电脑)</a>: Settings → Start, home, and new tab page → Show home button → enter this address.</li>
+                <li><a href="https://support.mozilla.org/en-US/kb/how-to-set-the-home-page" target="_blank" rel="noopener noreferrer">Firefox (desktop / 电脑)</a>: Settings → Home → Homepage and new windows → Custom URLs.</li>
+                <li><a href="https://support.apple.com/guide/safari/change-your-homepage-ibrw1020/mac" target="_blank" rel="noopener noreferrer">Safari (Mac)</a>: Safari → Settings → General → Homepage. Choose Homepage for new windows or tabs.</li>
+            </ul>
+            <p>On a phone, save this page as a bookmark or use your browser's Add to Home Screen option when available.<br>手机上可收藏此页面，或使用浏览器提供的“添加到主屏幕”功能。</p>
+            <form method="dialog"><button type="submit">Close / 关闭</button></form>
+        </dialog>
+        <!-- Existing site widget: https://clustrmaps.com/profile/1c6il/widget/customize -->
+        <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/counter_v2.js?cl=ffffff&amp;w=a&amp;t=n&amp;d=fQvKmZbPMctrjCs0jp8rDLqKYPwmQtmFVMiOSl9YUsE"></script>
+        <script src="assets/navigation.js"></script>
     </body>
-    <script>
-        var setHome=function(obj,url){try{obj.style.behavior='url(#default#homepage)';obj.setHomePage(url)}catch(e){if(window.netscape){try{netscape.security.PrivilegeManager.enablePrivilege('UniversalXPConnect')}catch(e){alert('Sorry, this action is blocked by your browser!\n\nSolution 1:\nType "about:config" in your address bar and press Enter.\nThen set [signed.applets.codebase_principal_support] to true.\n\nSolution 2:\nManually set '+url+' as your homepage.')}var prefs=Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);prefs.setCharPref('browser.startup.homepage',url)}else{alert('Sorry, your browser does not support this action.\n\nPlease manually set '+url+' as your homepage.')}}};
-        document.getElementById("find-form-pc").onsubmit=function(e){e.preventDefault();};
-        document.getElementById("find-form-mobile").onsubmit=function(e){e.preventDefault();};
-        var setupFind=function(inputId,msgId){var searchInput=document.getElementById(inputId);if(!searchInput)return;var noResultsMessage=document.getElementById(msgId);var mainBlocks=document.querySelectorAll('.main-block');var apply=function(){var searchTerm=searchInput.value.toLowerCase().trim();var totalVisibleItems=0;mainBlocks.forEach(function(block){var items=block.querySelectorAll('.searchable-item');var hasVisibleItems=false;items.forEach(function(item){var keywords=item.getAttribute('data-keywords');if(searchTerm===''||keywords.indexOf(searchTerm)!==-1){item.style.display='block';hasVisibleItems=true;totalVisibleItems++}else{item.style.display='none'}});if(hasVisibleItems||searchTerm===''){block.style.display='block'}else{block.style.display='none'}});if(searchTerm!==''&&totalVisibleItems===0){noResultsMessage.style.display='block'}else{noResultsMessage.style.display='none'}};searchInput.addEventListener('input',apply);};
-        document.addEventListener('DOMContentLoaded',function(){setupFind('find-in-page-input','no-results-message');setupFind('find-in-page-input-mobile','no-results-message-mobile');});
-        document.addEventListener('DOMContentLoaded',function(){var toggles=document.querySelectorAll('[data-contact-toggle]');var closeAll=function(except){toggles.forEach(function(btn){if(btn!==except){btn.setAttribute('aria-expanded','false');btn.nextElementSibling.classList.remove('is-open')}})};toggles.forEach(function(btn){btn.addEventListener('click',function(e){e.stopPropagation();var card=btn.nextElementSibling;var isOpen=card.classList.contains('is-open');closeAll();card.classList.toggle('is-open',!isOpen);btn.setAttribute('aria-expanded',String(!isOpen))})});document.addEventListener('click',function(){closeAll()});document.addEventListener('keydown',function(e){if(e.key==='Escape')closeAll()});});
-    </script>
 </html>
