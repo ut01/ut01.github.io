@@ -73,7 +73,7 @@
     section_zh: "校园生活与设施"
     links:
       - { url: "https://housing.utexas.edu/housing", title: "Housing", icon: "fad fa-bed-front", keywords: "housing, dormitory, on-campus living, residence, dorm, room, accommodation, 住宿, 宿舍, 居住, 房间" }
-      - { url: "https://hf-foodpro.austin.utexas.edu/foodpro/location.aspx", title: "Menus", icon: "fad fa-utensils", keywords: "dining menus, food, meals, restaurants, cafeteria, 食堂菜单, 菜单, 食物, 餐厅, 用餐" }
+      - { url: "https://hf-foodpro.austin.utexas.edu/foodpro/", title: "Menus", icon: "fad fa-utensils", keywords: "dining menus, food, meals, restaurants, cafeteria, 食堂菜单, 菜单, 食物, 餐厅, 用餐" }
       - { url: "https://utdirect.utexas.edu/utapps/uhd/services/dining/", title: "Dining Bal", icon: "fad fa-dollar-sign", keywords: "dining balance, meal plan, food money, cafeteria balance, 饭卡余额, 餐费, 食堂卡, 用餐余额" }
       - { url: "https://maps.utexas.edu/", title: "Campus Map", icon: "fad fa-map-location-dot", keywords: "campus map, directions, 校园地图" }
       - { url: "/guides/bus-guide.html", title: "UT Buses", icon: "fad fa-bus-simple", keywords: "UT shuttle, bus routes, CapMetro, 校车, 公交" }
